@@ -26,7 +26,6 @@ const ZoomComponent = () => {
   const mapEvents = useMapEvents({
     zoomend: () => {
       setZoomLevel(mapEvents.getZoom())
-      console.log("zoomend", mapEvents.getZoom())
     },
   })
   return (
