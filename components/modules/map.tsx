@@ -1,12 +1,13 @@
 "use client"
 
-import { FC, useState } from "react"
+import { FC, useEffect, useState } from "react"
 import {
   MapContainer,
   TileLayer,
   Marker,
   Popup,
   useMapEvents,
+  useMap,
 } from "react-leaflet"
 import { LatLng, icon } from "leaflet"
 import "leaflet/dist/leaflet.css"
@@ -50,6 +51,22 @@ const ZoomComponent = () => {
 
 const initialPosition = new LatLng(35.681236, 139.767125)
 
+const FitBounds = ({
+  locations,
+}: {
+  locations: { lat: number; lng: number }[]
+}) => {
+  const map = useMap()
+
+  useEffect(() => {
+    if (locations.length > 0) {
+      map.fitBounds(locations.map((l) => [l.lat, l.lng]))
+    }
+  }, [map, locations])
+
+  return null
+}
+
 export const Map: FC = () => {
   return (
     <>
@@ -64,6 +81,7 @@ export const Map: FC = () => {
         >
           <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
           <ZoomComponent />
+          <FitBounds locations={slist} />
         </MapContainer>
       </div>
     </>
