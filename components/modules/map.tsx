@@ -53,17 +53,19 @@ const initialPosition = new LatLng(35.681236, 139.767125)
 export const Map: FC = () => {
   return (
     <>
-      <MapContainer
-        center={initialPosition}
-        zoom={15}
-        style={{
-          height: "100%",
-          width: "100%",
-        }}
-      >
-        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-        <ZoomComponent />
-      </MapContainer>
+      <div style={{ height: "100%", width: "100%" }}>
+        <MapContainer
+          center={initialPosition}
+          zoom={15}
+          style={{
+            height: "100%",
+            width: "100%",
+          }}
+        >
+          <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+          <ZoomComponent />
+        </MapContainer>
+      </div>
     </>
   )
 }
