@@ -1,5 +1,6 @@
 "use client"
 
+import ListComponent from "components/modules/list"
 import dynamic from "next/dynamic"
 import { FC, useEffect, useState } from "react"
 const Map = dynamic(() => import("components/modules/map").then((c) => c.Map), {
@@ -7,11 +8,10 @@ const Map = dynamic(() => import("components/modules/map").then((c) => c.Map), {
 })
 
 const IndexPage: FC = () => {
-  const [isLandscape, setIsLandscape] = useState<boolean>(
-    window.matchMedia("(min-aspect-ratio: 1/1)").matches
-  )
+  const [isLandscape, setIsLandscape] = useState<boolean>(true)
   useEffect(() => {
     const mediaQuery = window.matchMedia("(min-aspect-ratio: 1/1)")
+    setIsLandscape(mediaQuery.matches)
     const handleChange = () => setIsLandscape(mediaQuery.matches)
     mediaQuery.addEventListener("change", handleChange)
     return () => mediaQuery.removeEventListener("change", handleChange)
@@ -28,17 +28,7 @@ const IndexPage: FC = () => {
       }}
     >
       <Map />
-      <div
-        style={{
-          boxShadow: "0px 0px 5px rgb(0 0 0 / .5)",
-          height: "100%",
-          padding: "1rem",
-          width: "100%",
-          zIndex: 1000,
-        }}
-      >
-        <h1>AlumniBook</h1>
-      </div>
+      <ListComponent />
     </section>
   )
 }
