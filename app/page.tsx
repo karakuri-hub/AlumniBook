@@ -1,6 +1,6 @@
 "use client"
 
-import ListComponent from "components/modules/list"
+import AlumnusListComponent from "components/modules/alumnus-list"
 import dynamic from "next/dynamic"
 import { FC, useEffect, useState } from "react"
 const Map = dynamic(() => import("components/modules/map").then((c) => c.Map), {
@@ -28,7 +28,7 @@ const IndexPage: FC = () => {
       }}
     >
       <Map />
-      <ListComponent />
+      <AlumnusListComponent />
     </section>
   )
 }
