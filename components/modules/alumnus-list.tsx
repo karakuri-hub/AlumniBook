@@ -1,9 +1,12 @@
-import { FC, useEffect, useState } from "react"
+import { ComponentProps, FC, useEffect, useState } from "react"
 import { alumniAtom } from "lib/store"
 import { useAtom } from "jotai"
 import { alumni as allAlumi } from "lib/constant"
 
-const AlumnusListComponent: FC = ({}) => {
+const AlumnusListComponent: FC<ComponentProps<"div">> = ({
+  style,
+  ...props
+}) => {
   const [alumni, setAlumni] = useAtom(alumniAtom)
   const [alumnusFilter, setAlumnusFilter] = useState<{
     countryNames: string[]
@@ -34,11 +37,13 @@ const AlumnusListComponent: FC = ({}) => {
   }, [alumnusFilter])
   return (
     <div
+      {...props}
       style={{
         boxShadow: "0px 0px 5px rgb(0 0 0 / .5)",
         height: "100%",
         overflowY: "scroll",
         zIndex: 1000,
+        ...style,
       }}
     >
       <div
