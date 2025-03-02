@@ -12,7 +12,8 @@ import {
 import { LatLng, icon } from "leaflet"
 import "leaflet/dist/leaflet.css"
 import iconImage from "leaflet/dist/images/marker-icon.png"
-import { alumni } from "lib/constant"
+import { useAtomValue } from "jotai"
+import { alumniAtom } from "lib/store"
 
 const convertLatLng = (lat: number, lng: number, zoom: number) => {
   const rank = Math.max(10 ** Math.ceil((zoom - 10) / 2), 10)
@@ -22,7 +23,7 @@ const convertLatLng = (lat: number, lng: number, zoom: number) => {
   )
 }
 
-const ZoomComponent = () => {
+const ZoomComponent = ({ alumni }: { alumni: Alumnus[] }) => {
   const [zoomLevel, setZoomLevel] = useState(15)
   const mapEvents = useMapEvents({
     zoomend: () => {
@@ -71,6 +72,7 @@ const FitBounds = ({ alumni }: { alumni: Alumnus[] }) => {
 }
 
 export const Map: FC = () => {
+  const alumni = useAtomValue(alumniAtom)
   return (
     <>
       <div style={{ height: "100%", width: "100%" }}>
@@ -83,7 +85,7 @@ export const Map: FC = () => {
           }}
         >
           <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-          <ZoomComponent />
+          <ZoomComponent alumni={alumni} />
           <FitBounds alumni={alumni} />
         </MapContainer>
       </div>
