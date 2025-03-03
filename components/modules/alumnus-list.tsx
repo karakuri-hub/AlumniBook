@@ -1,7 +1,10 @@
 import { ComponentProps, FC, useEffect, useState } from "react"
 import { alumniAtom, selectedAlumniAtom } from "lib/store"
 import { useAtom } from "jotai"
-import { alumni as allAlumi } from "lib/constant"
+import { alumni as allAlumi } from "lib/constant/alumni"
+import { Dialog } from "components/common/dialog"
+import { Button } from "components/common/button"
+import { allCountries } from "lib/constant/country"
 
 const AlumnusListComponent: FC<ComponentProps<"div">> = ({
   style,
@@ -20,6 +23,7 @@ const AlumnusListComponent: FC<ComponentProps<"div">> = ({
     completionYears: [2023, 2022, 2021, 2020, 2019, 2018],
     hasPosition: true,
   })
+  const [isOpenContryDialog, setIsOpenCountryDialog] = useState<boolean>(false)
   useEffect(() => {
     setAlumni(
       allAlumi
@@ -33,8 +37,10 @@ const AlumnusListComponent: FC<ComponentProps<"div">> = ({
             alumnusFilter.countryNames.length === 0 ||
             alumnusFilter.countryNames.includes(alumnus.countryName)
         )
-        .filter((alumnus) =>
-          alumnusFilter.completionYears.includes(alumnus.completionYear)
+        .filter(
+          (alumnus) =>
+            alumnusFilter.completionYears.length === 0 ||
+            alumnusFilter.completionYears.includes(alumnus.completionYear)
         )
         .filter(
           (alumnus) =>
@@ -91,6 +97,83 @@ const AlumnusListComponent: FC<ComponentProps<"div">> = ({
             </div>
           ))}
         </div>
+      </div>
+      <div style={{ padding: ".5rem" }}>
+        <div style={{ fontSize: ".75rem" }}>Country</div>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: ".5rem",
+            padding: ".5rem 0",
+          }}
+        >
+          {alumnusFilter.countryNames.map((c) => (
+            <div
+              key={c}
+              style={{
+                border: "1px solid",
+                borderColor: "#666",
+                borderRadius: "1rem",
+                fontSize: ".75rem",
+                padding: ".15rem .5rem",
+              }}
+            >
+              {c}
+            </div>
+          ))}
+        </div>
+        <Button onClick={() => setIsOpenCountryDialog(true)}>Select</Button>
+        <Dialog
+          open={isOpenContryDialog}
+          onClose={() => setIsOpenCountryDialog(false)}
+        >
+          <section>
+            <h3>Select Countries</h3>
+            <div
+              style={{
+                display: "flex",
+                flexWrap: "wrap",
+                gap: ".5rem",
+                padding: ".5rem 0",
+              }}
+            >
+              {allCountries
+                .filter((c) => allAlumi.find((a) => a.countryName == c))
+                .map((country) => (
+                  <div
+                    key={country}
+                    style={{
+                      border: "1px solid",
+                      borderColor: alumnusFilter.countryNames.includes(country)
+                        ? "#666"
+                        : "#ccc",
+                      borderRadius: "1rem",
+                      fontSize: ".75rem",
+                      padding: ".15rem .5rem",
+                    }}
+                    onClick={() =>
+                      setAlumnusFilter({
+                        ...alumnusFilter,
+                        countryNames: alumnusFilter.countryNames.includes(
+                          country
+                        )
+                          ? alumnusFilter.countryNames.filter(
+                              (c) => c !== country
+                            )
+                          : [...alumnusFilter.countryNames, country],
+                      })
+                    }
+                  >
+                    {country}&nbsp;
+                    <span style={{ fontSize: ".5rem" }}>
+                      {allAlumi.filter((a) => a.countryName == country).length}
+                    </span>
+                  </div>
+                ))}
+            </div>
+          </section>
+        </Dialog>
       </div>
       <div style={{ padding: ".5rem" }}>
         <div style={{ fontSize: ".75rem" }}>Name</div>
