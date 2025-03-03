@@ -1,6 +1,6 @@
 "use client"
 
-import { FC, useEffect, useState } from "react"
+import { FC, useEffect, useRef, useState } from "react"
 import {
   MapContainer,
   TileLayer,
@@ -12,8 +12,9 @@ import {
 import { LatLng, icon } from "leaflet"
 import "leaflet/dist/leaflet.css"
 import iconImage from "leaflet/dist/images/marker-icon.png"
-import { useAtomValue } from "jotai"
-import { alumniAtom } from "lib/store"
+import { useAtom, useAtomValue } from "jotai"
+import { alumniAtom, selectedAlumniAtom } from "lib/store"
+import L from "leaflet"
 
 const convertLatLng = (lat: number, lng: number, zoom: number) => {
   const rank = Math.max(10 ** Math.ceil((zoom - 10) / 2), 10)
@@ -35,24 +36,51 @@ const ZoomComponent = ({ alumni }: { alumni: Alumnus[] }) => {
       {alumni
         .filter((a) => a.latitude && a.longitude)
         .map((alumnus, i) => (
-          <Marker
-            key={i}
-            position={convertLatLng(
-              alumnus.latitude,
-              alumnus.longitude,
-              zoomLevel
-            )}
-            icon={icon({
-              iconUrl: iconImage.src,
-              iconSize: [25, 41],
-              iconAnchor: [25, 41],
-              popupAnchor: [0, -41],
-            })}
-          >
-            <Popup>{alumnus.name}</Popup>
-          </Marker>
+          <MakerComponent key={i} alumnus={alumnus} zoomLevel={zoomLevel} />
         ))}
     </>
+  )
+}
+
+const MakerComponent = ({
+  alumnus,
+  zoomLevel,
+}: {
+  alumnus: Alumnus
+  zoomLevel: number
+}) => {
+  const markerRef = useRef<L.Marker>(null)
+  const [selectedAlumni, setSelectedAlumni] = useAtom(selectedAlumniAtom)
+  useEffect(() => {
+    if (markerRef.current) {
+      if (selectedAlumni.includes(alumnus)) {
+        markerRef.current.openPopup()
+      } else {
+        markerRef.current.closePopup()
+      }
+    }
+  }, [selectedAlumni])
+  return (
+    <Marker
+      eventHandlers={{
+        popupclose: () =>
+          setSelectedAlumni(selectedAlumni.filter((a) => a !== alumnus)),
+        popupopen: () => setSelectedAlumni([...selectedAlumni, alumnus]),
+      }}
+      ref={markerRef}
+      position={convertLatLng(alumnus.latitude, alumnus.longitude, zoomLevel)}
+      icon={icon({
+        iconUrl: iconImage.src,
+        iconSize: [25, 41],
+        iconAnchor: [25, 41],
+        popupAnchor: [-12, -41],
+      })}
+    >
+      <Popup autoClose={false}>
+        <div style={{ fontWeight: "bold" }}>{alumnus.name}</div>
+        <div>{alumnus.affiliationName}</div>
+      </Popup>
+    </Marker>
   )
 }
 

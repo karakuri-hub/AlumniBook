@@ -1,5 +1,5 @@
 import { ComponentProps, FC, useEffect, useState } from "react"
-import { alumniAtom } from "lib/store"
+import { alumniAtom, selectedAlumniAtom } from "lib/store"
 import { useAtom } from "jotai"
 import { alumni as allAlumi } from "lib/constant"
 
@@ -8,6 +8,7 @@ const AlumnusListComponent: FC<ComponentProps<"div">> = ({
   ...props
 }) => {
   const [alumni, setAlumni] = useAtom(alumniAtom)
+  const [selectedAlumni, setSelectedAlumni] = useAtom(selectedAlumniAtom)
   const [alumnusFilter, setAlumnusFilter] = useState<{
     countryNames: string[]
     completionYears: number[]
@@ -87,7 +88,21 @@ const AlumnusListComponent: FC<ComponentProps<"div">> = ({
             padding: ".5rem",
           }}
         >
-          <p>{alumnus.name}</p>
+          <label>
+            <input
+              type="checkbox"
+              checked={selectedAlumni.includes(alumnus)}
+              onChange={({ target: { checked } }) =>
+                setSelectedAlumni(
+                  checked
+                    ? [...selectedAlumni, alumnus]
+                    : selectedAlumni.filter((a) => a !== alumnus)
+                )
+              }
+            />
+            &nbsp;
+            {alumnus.name}
+          </label>
           <p style={{ fontSize: ".75rem" }}>
             {alumnus.countryName}&nbsp;{alumnus.completionYear}&nbsp;
             {alumnus.course}
