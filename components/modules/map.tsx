@@ -68,7 +68,7 @@ const MakerComponent = ({
         popupopen: () => setSelectedAlumni([...selectedAlumni, alumnus]),
       }}
       ref={markerRef}
-      position={convertLatLng(alumnus.latitude, alumnus.longitude, zoomLevel)}
+      position={new LatLng(alumnus.latitude, alumnus.longitude)}
       icon={icon({
         iconUrl: iconImage.src,
         iconSize: [25, 41],
@@ -83,8 +83,6 @@ const MakerComponent = ({
     </Marker>
   )
 }
-
-const initialPosition = new LatLng(35.681236, 139.767125)
 
 const FitBounds = ({ alumni }: { alumni: Alumnus[] }) => {
   const map = useMap()
@@ -105,7 +103,6 @@ export const Map: FC = () => {
     <>
       <div style={{ height: "100%", width: "100%" }}>
         <MapContainer
-          center={initialPosition}
           zoom={15}
           style={{
             height: "100%",
