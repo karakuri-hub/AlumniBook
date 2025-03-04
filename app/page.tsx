@@ -23,14 +23,14 @@ const IndexPage: FC = () => {
         display: "flex",
         flexDirection: isLandscape ? "column" : "row",
         flexWrap: "wrap",
-        height: isLandscape ? "100vh" : "50vh",
-        width: isLandscape ? "70vw" : "100vw",
+        height: isLandscape ? "100dvh" : "50dvh",
+        width: isLandscape ? "70dvw" : "100dvw",
       }}
     >
       <Map />
       <AlumnusListComponent
         style={{
-          width: isLandscape ? "30vw" : "100%",
+          width: isLandscape ? "30dvw" : "100%",
         }}
       />
     </section>
