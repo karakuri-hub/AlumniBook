@@ -1,5 +1,4 @@
 import { ComponentProps, FC, useEffect, useRef } from "react"
-import { Button } from "./button"
 import { Tag } from "./tag"
 
 export const Dialog: FC<ComponentProps<"dialog"> & { onClose: () => void }> = ({
