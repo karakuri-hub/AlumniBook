@@ -123,7 +123,11 @@ const AlumnusListComponent: FC<ComponentProps<"div">> = ({
               }}
             >
               {allCountries
-                .filter((c) => allAlumi.find((a) => a.countryName == c))
+                .filter((c) =>
+                  allAlumi
+                    .filter((a) => !!a.address)
+                    .find((a) => a.countryName == c)
+                )
                 .map((country) => (
                   <Tag
                     key={country}
@@ -143,7 +147,11 @@ const AlumnusListComponent: FC<ComponentProps<"div">> = ({
                   >
                     {country}&nbsp;
                     <span style={{ fontSize: ".5rem" }}>
-                      {allAlumi.filter((a) => a.countryName == country).length}
+                      {
+                        allAlumi
+                          .filter((a) => !!a.address)
+                          .filter((a) => a.countryName == country).length
+                      }
                     </span>
                   </Tag>
                 ))}
