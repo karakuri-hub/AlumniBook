@@ -1,6 +1,6 @@
 "use client"
 
-import { FC, useEffect, useRef, useState } from "react"
+import { ComponentProps, FC, useEffect, useRef, useState } from "react"
 import {
   MapContainer,
   TileLayer,
@@ -97,11 +97,11 @@ const FitBounds = ({ alumni }: { alumni: Alumnus[] }) => {
   return null
 }
 
-export const Map: FC = () => {
+export const Map: FC<ComponentProps<"div">> = ({ style, ...props }) => {
   const alumni = useAtomValue(alumniAtom)
   return (
     <>
-      <div style={{ height: "100%", width: "100%" }}>
+      <div style={{ ...style }} {...props}>
         <MapContainer
           zoom={15}
           style={{
