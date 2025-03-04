@@ -5,6 +5,7 @@ import { alumni as allAlumi } from "lib/constant/alumni"
 import { Dialog } from "components/common/dialog"
 import { Button } from "components/common/button"
 import { allCountries } from "lib/constant/country"
+import { Tag } from "components/common/tag"
 
 const AlumnusListComponent: FC<ComponentProps<"div">> = ({
   style,
@@ -73,17 +74,9 @@ const AlumnusListComponent: FC<ComponentProps<"div">> = ({
           }}
         >
           {[2023, 2022, 2021, 2020, 2019, 2018].map((year) => (
-            <div
+            <Tag
               key={year}
-              style={{
-                border: "1px solid",
-                borderColor: alumnusFilter.completionYears.includes(year)
-                  ? "#666"
-                  : "#ccc",
-                borderRadius: "1rem",
-                fontSize: ".75rem",
-                padding: ".15rem .5rem",
-              }}
+              active={alumnusFilter.completionYears.includes(year)}
               onClick={() =>
                 setAlumnusFilter({
                   ...alumnusFilter,
@@ -94,7 +87,7 @@ const AlumnusListComponent: FC<ComponentProps<"div">> = ({
               }
             >
               {year}
-            </div>
+            </Tag>
           ))}
         </div>
       </div>
@@ -109,21 +102,12 @@ const AlumnusListComponent: FC<ComponentProps<"div">> = ({
           }}
         >
           {alumnusFilter.countryNames.map((c) => (
-            <div
-              key={c}
-              style={{
-                border: "1px solid",
-                borderColor: "#666",
-                borderRadius: "1rem",
-                fontSize: ".75rem",
-                padding: ".15rem .5rem",
-              }}
-            >
-              {c}
-            </div>
+            <Tag active={true}>{c}</Tag>
           ))}
         </div>
-        <Button onClick={() => setIsOpenCountryDialog(true)}>Select</Button>
+        <Tag onClick={() => setIsOpenCountryDialog(true)} active={true}>
+          Select
+        </Tag>
         <Dialog
           open={isOpenContryDialog}
           onClose={() => setIsOpenCountryDialog(false)}
@@ -141,17 +125,9 @@ const AlumnusListComponent: FC<ComponentProps<"div">> = ({
               {allCountries
                 .filter((c) => allAlumi.find((a) => a.countryName == c))
                 .map((country) => (
-                  <div
+                  <Tag
                     key={country}
-                    style={{
-                      border: "1px solid",
-                      borderColor: alumnusFilter.countryNames.includes(country)
-                        ? "#666"
-                        : "#ccc",
-                      borderRadius: "1rem",
-                      fontSize: ".75rem",
-                      padding: ".15rem .5rem",
-                    }}
+                    active={alumnusFilter.countryNames.includes(country)}
                     onClick={() =>
                       setAlumnusFilter({
                         ...alumnusFilter,
@@ -169,7 +145,7 @@ const AlumnusListComponent: FC<ComponentProps<"div">> = ({
                     <span style={{ fontSize: ".5rem" }}>
                       {allAlumi.filter((a) => a.countryName == country).length}
                     </span>
-                  </div>
+                  </Tag>
                 ))}
             </div>
           </section>

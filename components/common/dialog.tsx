@@ -1,5 +1,6 @@
 import { ComponentProps, FC, useEffect, useRef } from "react"
 import { Button } from "./button"
+import { Tag } from "./tag"
 
 export const Dialog: FC<ComponentProps<"dialog"> & { onClose: () => void }> = ({
   onClose,
@@ -35,7 +36,9 @@ export const Dialog: FC<ComponentProps<"dialog"> & { onClose: () => void }> = ({
       >
         <section>{children}</section>
         <section style={{ display: "flex", justifyContent: "space-around" }}>
-          <Button onClick={onClose}>Close</Button>
+          <Tag onClick={onClose} active={true}>
+            Close
+          </Tag>
         </section>
       </dialog>
     </>
