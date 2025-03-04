@@ -22,7 +22,7 @@ export const Dialog: FC<ComponentProps<"dialog"> & { onClose: () => void }> = ({
       <dialog
         style={{
           border: "none",
-          boxShadow: "0 0 0 100vmax rgba(0, 0, 0, 0.3)",
+          boxShadow: "0 0 0 100vmax rgba(0, 0, 0, 0.1)",
           inlineSize: "min(48rem, 90vw)",
           inset: 0,
           margin: "auto",

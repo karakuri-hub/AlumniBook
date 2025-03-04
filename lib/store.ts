@@ -3,3 +3,4 @@ import { alumni } from "lib/constant/alumni"
 
 export const alumniAtom = atom<Alumnus[]>(alumni)
 export const selectedAlumniAtom = atom<Alumnus[]>([])
+export const selectedAlumnusAtom = atom<Alumnus>()

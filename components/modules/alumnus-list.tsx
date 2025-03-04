@@ -1,9 +1,8 @@
 import { ComponentProps, FC, useEffect, useState } from "react"
-import { alumniAtom, selectedAlumniAtom } from "lib/store"
-import { useAtom } from "jotai"
+import { alumniAtom, selectedAlumniAtom, selectedAlumnusAtom } from "lib/store"
+import { useAtom, useSetAtom } from "jotai"
 import { alumni as allAlumi } from "lib/constant/alumni"
 import { Dialog } from "components/common/dialog"
-import { Button } from "components/common/button"
 import { allCountries } from "lib/constant/country"
 import { Tag } from "components/common/tag"
 
@@ -13,6 +12,7 @@ const AlumnusListComponent: FC<ComponentProps<"div">> = ({
 }) => {
   const [alumni, setAlumni] = useAtom(alumniAtom)
   const [selectedAlumni, setSelectedAlumni] = useAtom(selectedAlumniAtom)
+  const setSelectedAlumnus = useSetAtom(selectedAlumnusAtom)
   const [alumnusFilter, setAlumnusFilter] = useState<{
     name: string
     countryNames: string[]
@@ -205,6 +205,9 @@ const AlumnusListComponent: FC<ComponentProps<"div">> = ({
           <p style={{ color: "#999", fontSize: ".6rem" }}>
             {alumnus.affiliationName}
           </p>
+          <div>
+            <Tag onClick={() => setSelectedAlumnus(alumnus)}>Detail</Tag>
+          </div>
         </div>
       ))}
     </div>

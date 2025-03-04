@@ -12,9 +12,10 @@ import {
 import { LatLng, icon } from "leaflet"
 import "leaflet/dist/leaflet.css"
 import iconImage from "leaflet/dist/images/marker-icon.png"
-import { useAtom, useAtomValue } from "jotai"
-import { alumniAtom, selectedAlumniAtom } from "lib/store"
+import { useAtom, useAtomValue, useSetAtom } from "jotai"
+import { alumniAtom, selectedAlumniAtom, selectedAlumnusAtom } from "lib/store"
 import L from "leaflet"
+import { Tag } from "components/common/tag"
 
 const convertLatLng = (lat: number, lng: number, zoom: number) => {
   const rank = Math.max(10 ** Math.ceil((zoom - 10) / 2), 10)
@@ -51,6 +52,7 @@ const MakerComponent = ({
 }) => {
   const markerRef = useRef<L.Marker>(null)
   const [selectedAlumni, setSelectedAlumni] = useAtom(selectedAlumniAtom)
+  const setSelectedAlumnus = useSetAtom(selectedAlumnusAtom)
   useEffect(() => {
     if (markerRef.current) {
       if (selectedAlumni.includes(alumnus)) {
@@ -79,6 +81,9 @@ const MakerComponent = ({
       <Popup autoClose={false}>
         <div style={{ fontWeight: "bold" }}>{alumnus.name}</div>
         <div>{alumnus.affiliationName}</div>
+        <div style={{ paddingTop: ".5rem" }}>
+          <Tag onClick={() => setSelectedAlumnus(alumnus)}>Detail</Tag>
+        </div>
       </Popup>
     </Marker>
   )
