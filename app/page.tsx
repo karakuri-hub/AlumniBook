@@ -23,6 +23,8 @@ const IndexPage: FC = () => {
         display: "flex",
         flexDirection: isLandscape ? "row" : "column",
         flexWrap: "wrap",
+        height: isLandscape && "100dvh",
+        width: !isLandscape && "100dvw",
       }}
     >
       <Map

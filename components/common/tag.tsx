@@ -2,7 +2,6 @@ import { ComponentProps, FC } from "react"
 
 export const Tag: FC<ComponentProps<"button"> & { active?: boolean }> = ({
   active,
-  key,
   style,
   ...props
 }) => {
@@ -10,7 +9,6 @@ export const Tag: FC<ComponentProps<"button"> & { active?: boolean }> = ({
     <>
       <button
         {...props}
-        key={key}
         style={{
           background: active ? "#fcfcfc" : "transparent",
           border: "1px solid",

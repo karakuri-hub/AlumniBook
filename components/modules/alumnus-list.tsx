@@ -102,7 +102,9 @@ const AlumnusListComponent: FC<ComponentProps<"div">> = ({
           }}
         >
           {alumnusFilter.countryNames.map((c) => (
-            <Tag active={true}>{c}</Tag>
+            <Tag active={true} key={c}>
+              {c}
+            </Tag>
           ))}
         </div>
         <Tag onClick={() => setIsOpenCountryDialog(true)} active={true}>
