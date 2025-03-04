@@ -1,4 +1,4 @@
-import { ComponentProps, FC } from "react"
+import { ComponentProps, FC, useEffect, useRef } from "react"
 import { Button } from "./button"
 
 export const Dialog: FC<ComponentProps<"dialog"> & { onClose: () => void }> = ({
@@ -8,13 +8,21 @@ export const Dialog: FC<ComponentProps<"dialog"> & { onClose: () => void }> = ({
   children,
   ...props
 }) => {
+  const ref = useRef<HTMLDialogElement>(null)
+  useEffect(() => {
+    if (open) {
+      ref.current.showModal()
+    } else {
+      ref.current.close()
+    }
+  }, [open])
   return (
     <>
       <dialog
         style={{
           border: "none",
           boxShadow: "0 0 0 100vmax rgba(0, 0, 0, 0.3)",
-          inlineSize: "min(48rem, 80vw)",
+          inlineSize: "min(48rem, 90vw)",
           inset: 0,
           margin: "auto",
           maxBlockSize: "80dvh",
@@ -22,7 +30,7 @@ export const Dialog: FC<ComponentProps<"dialog"> & { onClose: () => void }> = ({
           padding: "1rem",
           ...style,
         }}
-        open={open}
+        ref={ref}
         {...props}
       >
         <section>{children}</section>
