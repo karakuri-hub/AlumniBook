@@ -2,6 +2,7 @@
 
 import { ComponentProps, FC, useEffect, useRef, useState } from "react"
 import {
+  GeoJSON,
   MapContainer,
   TileLayer,
   Marker,
@@ -13,9 +14,15 @@ import { LatLng, icon } from "leaflet"
 import "leaflet/dist/leaflet.css"
 import iconImage from "leaflet/dist/images/marker-icon.png"
 import { useAtom, useAtomValue, useSetAtom } from "jotai"
-import { alumniAtom, selectedAlumniAtom, selectedAlumnusAtom } from "lib/store"
+import {
+  alumniAtom,
+  alumnusFilterAtom,
+  selectedAlumniAtom,
+  selectedAlumnusAtom,
+} from "lib/store"
 import L from "leaflet"
 import { Tag } from "components/common/tag"
+import { geoJsonData } from "lib/constant/country"
 
 const convertLatLng = (lat: number, lng: number, zoom: number) => {
   const rank = Math.max(10 ** Math.ceil((zoom - 10) / 2), 10)
@@ -104,6 +111,7 @@ const FitBounds = ({ alumni }: { alumni: Alumnus[] }) => {
 
 export const Map: FC<ComponentProps<"div">> = ({ style, ...props }) => {
   const alumni = useAtomValue(alumniAtom)
+  const alumniFilter = useAtomValue(alumnusFilterAtom)
   return (
     <>
       <div style={{ ...style }} {...props}>
@@ -121,6 +129,19 @@ export const Map: FC<ComponentProps<"div">> = ({ style, ...props }) => {
           />
           <ZoomComponent alumni={alumni} />
           <FitBounds alumni={alumni} />
+          {alumniFilter.countryNames.length > 0 && (
+            <GeoJSON
+              data={geoJsonData}
+              style={(feature) => ({
+                fillColor:
+                  alumniFilter.countryNames.includes(feature.properties.name) &&
+                  "#f00",
+                fillOpacity: 0.7,
+                weight: 1,
+                color: "white",
+              })}
+            />
+          )}
         </MapContainer>
       </div>
     </>

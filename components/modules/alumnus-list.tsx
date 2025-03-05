@@ -1,5 +1,10 @@
 import { ComponentProps, FC, useEffect, useState } from "react"
-import { alumniAtom, selectedAlumniAtom, selectedAlumnusAtom } from "lib/store"
+import {
+  alumniAtom,
+  alumnusFilterAtom,
+  selectedAlumniAtom,
+  selectedAlumnusAtom,
+} from "lib/store"
 import { useAtom, useSetAtom } from "jotai"
 import { alumni as allAlumi } from "lib/constant/alumni"
 import { Dialog } from "components/common/dialog"
@@ -13,17 +18,7 @@ const AlumnusListComponent: FC<ComponentProps<"div">> = ({
   const [alumni, setAlumni] = useAtom(alumniAtom)
   const [selectedAlumni, setSelectedAlumni] = useAtom(selectedAlumniAtom)
   const setSelectedAlumnus = useSetAtom(selectedAlumnusAtom)
-  const [alumnusFilter, setAlumnusFilter] = useState<{
-    name: string
-    countryNames: string[]
-    completionYears: number[]
-    hasPosition: boolean
-  }>({
-    name: "",
-    countryNames: [],
-    completionYears: [2023, 2022, 2021, 2020, 2019, 2018],
-    hasPosition: true,
-  })
+  const [alumnusFilter, setAlumnusFilter] = useAtom(alumnusFilterAtom)
   const [isOpenContryDialog, setIsOpenCountryDialog] = useState<boolean>(false)
   useEffect(() => {
     setAlumni(
