@@ -115,7 +115,10 @@ export const Map: FC<ComponentProps<"div">> = ({ style, ...props }) => {
             width: "100%",
           }}
         >
-          <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+          <TileLayer
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            attribution="© OpenStreetMap contributors"
+          />
           <ZoomComponent alumni={alumni} />
           <FitBounds alumni={alumni} />
         </MapContainer>
