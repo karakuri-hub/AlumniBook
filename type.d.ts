@@ -10,6 +10,7 @@ type Alumnus = {
   longitude?: number
   completionYear: number
   url: string
+  email?: string
 }
 
 type CountryName =
