@@ -122,6 +122,10 @@ export const Map: FC<ComponentProps<"div">> = ({ style, ...props }) => {
             height: "100%",
             width: "100%",
           }}
+          maxBounds={[
+            [-90, -210],
+            [90, 210],
+          ]}
         >
           <TileLayer
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
