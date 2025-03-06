@@ -140,7 +140,7 @@ export const Map: FC<ComponentProps<"div">> = ({ style, ...props }) => {
                 fillColor:
                   alumniFilter.countryNames.includes(feature.properties.name) &&
                   "#f00",
-                fillOpacity: 0.7,
+                fillOpacity: 0.3,
                 weight: 1,
                 color: "white",
               })}
