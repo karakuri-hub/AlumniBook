@@ -10,6 +10,7 @@ import { alumni as allAlumi } from "lib/constant/alumni"
 import { Dialog } from "components/common/dialog"
 import { allCountries } from "lib/constant/country"
 import { Tag } from "components/common/tag"
+import { SettingsModal } from "./settings-modal"
 
 const AlumnusListComponent: FC<ComponentProps<"div">> = ({
   style,
@@ -58,6 +59,9 @@ const AlumnusListComponent: FC<ComponentProps<"div">> = ({
         ...style,
       }}
     >
+      <div style={{ padding: ".5rem" }}>
+        <SettingsModal />
+      </div>
       <div style={{ padding: ".5rem" }}>
         <div style={{ fontSize: ".75rem" }}>Completion year</div>
         <div

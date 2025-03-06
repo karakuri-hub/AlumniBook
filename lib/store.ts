@@ -15,3 +15,7 @@ export const alumnusFilterAtom = atom<{
   completionYears: [2023, 2022, 2021, 2020, 2019, 2018],
   hasPosition: true,
 })
+
+export const settingsAtom = atom<{
+  isHighlightedCountried?: boolean
+}>({})
