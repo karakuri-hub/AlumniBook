@@ -8,7 +8,16 @@ export const SettingsModal: FC = () => {
   const [settings, setSettings] = useAtom(settingsAtom)
   return (
     <>
-      <button onClick={() => setIsOpenModal(true)}>Settings</button>
+      <div
+        style={{
+          cursor: "pointer",
+          fontSize: ".75rem",
+          textDecoration: "underline",
+        }}
+        onClick={() => setIsOpenModal(true)}
+      >
+        Settings
+      </div>
       {isOpenModal && (
         <Dialog open={isOpenModal} onClose={() => setIsOpenModal(false)}>
           <section>
@@ -24,12 +33,12 @@ export const SettingsModal: FC = () => {
                 <label key={group}>
                   <input
                     type="checkbox"
-                    checked={settings.included.includes(group)}
+                    checked={settings.included?.includes(group) ?? false}
                     onChange={({ target: { checked } }) =>
                       setSettings({
                         ...settings,
                         included: checked
-                          ? [...settings.included, group]
+                          ? [...(settings.included ?? []), group]
                           : (settings.included ?? []).filter(
                               (i) => i !== group
                             ),

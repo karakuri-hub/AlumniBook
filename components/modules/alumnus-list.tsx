@@ -59,7 +59,14 @@ const AlumnusListComponent: FC<ComponentProps<"div">> = ({
         ...style,
       }}
     >
-      <div style={{ padding: ".5rem" }}>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          padding: ".5rem",
+        }}
+      >
+        <h1 style={{ fontSize: "1rem" }}>Alumni Book</h1>
         <SettingsModal />
       </div>
       <div style={{ padding: ".5rem" }}>
