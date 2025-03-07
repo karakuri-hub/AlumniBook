@@ -4,6 +4,7 @@ import { useAtom } from "jotai"
 import { selectedAlumnusAtom } from "lib/store"
 import { Tag } from "components/common/tag"
 import { MultiplelLineTextField, TextField } from "components/common/form"
+import { UserIcon } from "components/svg/user-icon"
 
 export const DetailModal: FC = () => {
   const [selectedAlumnus, setSelectedAlumnus] = useAtom(selectedAlumnusAtom)
@@ -25,12 +26,15 @@ export const DetailModal: FC = () => {
             <h3>{selectedAlumnus.name}</h3>
             <figure
               style={{
-                backgroundImage: `url(${"/images/user-placeholder.png"})`,
+                backgroundImage:
+                  selectedAlumnus.image && `url(${selectedAlumnus.image})`,
                 backgroundSize: "cover",
                 height: "5rem",
                 width: "5rem",
               }}
-            ></figure>
+            >
+              {!selectedAlumnus.image && <UserIcon width={80} height={80} />}
+            </figure>
             <p>
               {selectedAlumnus.completionYear}&nbsp;{selectedAlumnus.course}
               &nbsp;{selectedAlumnus.countryName}

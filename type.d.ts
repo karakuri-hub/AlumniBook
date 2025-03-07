@@ -11,6 +11,7 @@ type Alumnus = {
   completionYear: number
   url: string
   email?: string
+  image?: string
 }
 
 type CountryName =

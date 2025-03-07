@@ -18,4 +18,5 @@ export const alumnusFilterAtom = atom<{
 
 export const settingsAtom = atom<{
   isHighlightedCountried?: boolean
+  included?: ("IISEE" | "ICHARM")[]
 }>({})
