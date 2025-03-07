@@ -1,6 +1,6 @@
 export const alumni: Alumnus[] = [
   {
-    course: "S",
+    course: "Seismology",
     name: "Mariama MADI",
     countryName: "Comoros",
     paperTitle:
@@ -14,7 +14,7 @@ export const alumni: Alumnus[] = [
     longitude: 43.2536,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Hany Abuelnaga ADAM",
     countryName: "Egypt",
     paperTitle:
@@ -28,7 +28,7 @@ export const alumni: Alumnus[] = [
     longitude: 31.3172,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Ibrahim SHALABY",
     countryName: "Egypt",
     paperTitle:
@@ -42,7 +42,7 @@ export const alumni: Alumnus[] = [
     longitude: 31.3172,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Paulo Pangan SAWI",
     countryName: "Philippines",
     paperTitle:
@@ -57,7 +57,7 @@ export const alumni: Alumnus[] = [
     longitude: 121.0506,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Tshering DENDUP",
     countryName: "Bhutan",
     paperTitle:
@@ -71,7 +71,7 @@ export const alumni: Alumnus[] = [
     longitude: 89.639,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Faiz SULTHAN",
     countryName: "Indonesia",
     paperTitle:
@@ -86,7 +86,7 @@ export const alumni: Alumnus[] = [
     longitude: 106.7993,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Nur Shajihan Binti MOHAMED IQBAL",
     countryName: "Malaysia",
     paperTitle:
@@ -101,7 +101,7 @@ export const alumni: Alumnus[] = [
     longitude: 101.6883,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Nurul NASUHA",
     countryName: "Malaysia",
     paperTitle:
@@ -115,7 +115,7 @@ export const alumni: Alumnus[] = [
     longitude: 101.6883,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Nurul Zawani binti HAMIDON",
     countryName: "Malaysia",
     paperTitle:
@@ -129,7 +129,7 @@ export const alumni: Alumnus[] = [
     longitude: 101.6883,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Hani Saber ELBEHIRI",
     countryName: "Egypt",
     paperTitle:
@@ -143,7 +143,7 @@ export const alumni: Alumnus[] = [
     longitude: 31.3172,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Koroi LESIKIKABARA",
     countryName: "Fiji",
     paperTitle:
@@ -156,7 +156,7 @@ export const alumni: Alumnus[] = [
     longitude: 178.4419,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Joji MALODALI",
     countryName: "Fiji",
     paperTitle:
@@ -170,7 +170,7 @@ export const alumni: Alumnus[] = [
     longitude: 178.4419,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Patanjali Kumar CHODAVARAPU",
     countryName: "India",
     paperTitle:
@@ -185,7 +185,7 @@ export const alumni: Alumnus[] = [
     longitude: 78.3915,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Muhammad HARVAN",
     countryName: "Indonesia",
     paperTitle:
@@ -199,7 +199,7 @@ export const alumni: Alumnus[] = [
     longitude: 106.844,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Kevyn Enrique PINEDA ORTIZ",
     countryName: "El Salvador",
     paperTitle:
@@ -213,7 +213,7 @@ export const alumni: Alumnus[] = [
     longitude: 89.1817,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Saula Mule",
     countryName: "Fiji",
     paperTitle:
@@ -226,7 +226,7 @@ export const alumni: Alumnus[] = [
     longitude: 178.4505,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Aldilla Damayanti Purnama Ratri",
     countryName: "Indonesia",
     paperTitle:
@@ -240,7 +240,7 @@ export const alumni: Alumnus[] = [
     longitude: 106.844,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Angga Wijaya",
     countryName: "Indonesia",
     paperTitle:
@@ -254,7 +254,7 @@ export const alumni: Alumnus[] = [
     longitude: 106.844,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Wahyudi Nasrul Pratama",
     countryName: "Indonesia",
     paperTitle:
@@ -269,7 +269,7 @@ export const alumni: Alumnus[] = [
     longitude: 121.0506,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Tom Carlo E. Simborio",
     countryName: "Philippines",
     paperTitle:
@@ -284,7 +284,7 @@ export const alumni: Alumnus[] = [
     longitude: 121.0506,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Nassim Ait Ali Slimane",
     countryName: "Algeria",
     paperTitle:
@@ -298,7 +298,7 @@ export const alumni: Alumnus[] = [
     longitude: 3.1893,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Indrajit Kumar Paul",
     countryName: "Bangladesh",
     paperTitle:
@@ -312,7 +312,7 @@ export const alumni: Alumnus[] = [
     longitude: 90.3654,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Kunzang Tenzin",
     countryName: "Bhutan",
     paperTitle:
@@ -326,7 +326,7 @@ export const alumni: Alumnus[] = [
     longitude: 89.639,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Eugenia Campos",
     countryName: "El Salvador",
     paperTitle:
@@ -341,7 +341,7 @@ export const alumni: Alumnus[] = [
     longitude: -89.2525,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Benjamin Osei Fordjour",
     countryName: "Ghana",
     paperTitle:
@@ -354,7 +354,7 @@ export const alumni: Alumnus[] = [
     longitude: -0.1716,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Jean Cueva",
     countryName: "Peru",
     paperTitle:
@@ -368,7 +368,7 @@ export const alumni: Alumnus[] = [
     longitude: -77.0337,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Vitoria Maria de Lillia da Costa Oliveira",
     countryName: "Timor-Leste",
     paperTitle: "PROBABILISTIC SEISMIC HAZARD ASSESSMENT\\nOF TIMOR-LESTE,",
@@ -381,7 +381,7 @@ export const alumni: Alumnus[] = [
     longitude: 13.2302,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Victorina Stephanie Nodis LEGER",
     countryName: "Tonga",
     paperTitle:
@@ -395,7 +395,7 @@ export const alumni: Alumnus[] = [
     longitude: -175.2086,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Mele Siale Manu",
     countryName: "Tonga",
     paperTitle:
@@ -408,7 +408,7 @@ export const alumni: Alumnus[] = [
     longitude: -175.2017,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Aziz Widiarso",
     countryName: "Indonesia",
     paperTitle:
@@ -422,7 +422,7 @@ export const alumni: Alumnus[] = [
     longitude: 106.844,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Sidiq Hargo Pandadaran",
     countryName: "Indonesia",
     paperTitle: "SOLVING THE PUZZLE OF THE 1996 BIAK,\\nINDONESIA TSUNAMI,",
@@ -435,7 +435,7 @@ export const alumni: Alumnus[] = [
     longitude: 106.844,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Yogha Mahardikha Kuncoro Putra",
     countryName: "Indonesia",
     paperTitle:
@@ -449,7 +449,7 @@ export const alumni: Alumnus[] = [
     longitude: 106.844,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Nityam Nepal",
     countryName: "Bhutan",
     paperTitle:
@@ -463,7 +463,7 @@ export const alumni: Alumnus[] = [
     longitude: 89.639,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Mónica Beatriz Olivar Amaya",
     countryName: "El Salvador",
     paperTitle:
@@ -477,7 +477,7 @@ export const alumni: Alumnus[] = [
     longitude: -89.2525,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Abdul Rosid",
     countryName: "Indonesia",
     paperTitle:
@@ -491,7 +491,7 @@ export const alumni: Alumnus[] = [
     longitude: 106.844,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Joel Oestar",
     countryName: "Philippines",
     paperTitle:
@@ -506,7 +506,7 @@ export const alumni: Alumnus[] = [
     longitude: 121.0506,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Geovanio Pedro da Silva Almeida",
     countryName: "Timor-Leste",
     paperTitle:
@@ -520,7 +520,7 @@ export const alumni: Alumnus[] = [
     longitude: 125.5736,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Mafoa Latu Penisoni",
     countryName: "Tonga",
     paperTitle:
@@ -535,7 +535,7 @@ export const alumni: Alumnus[] = [
       "Japan Agency for Marine-Earth Science and Technology (JAMSTEC).",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Bidhan Chandra Dey",
     countryName: "Bangladesh",
     paperTitle:
@@ -548,7 +548,7 @@ export const alumni: Alumnus[] = [
     longitude: 90.3928,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Md. Ibnul Warah",
     countryName: "Bangladesh",
     paperTitle:
@@ -562,7 +562,7 @@ export const alumni: Alumnus[] = [
     longitude: 90.3654,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Yadav Lal BHATTARAI",
     countryName: "Bhutan",
     paperTitle:
@@ -576,7 +576,7 @@ export const alumni: Alumnus[] = [
     longitude: 89.6339,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Susan Durán",
     countryName: "El Salvador",
     paperTitle:
@@ -590,7 +590,7 @@ export const alumni: Alumnus[] = [
     longitude: -89.2182,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Mohd Assyarul Bin Saadun",
     countryName: "Malaysia",
     paperTitle:
@@ -603,7 +603,7 @@ export const alumni: Alumnus[] = [
     longitude: 101.688,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Syuhaida Suaib",
     countryName: "Malaysia",
     paperTitle:
@@ -616,7 +616,7 @@ export const alumni: Alumnus[] = [
     longitude: 101.688,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Geronimo Pulido I.",
     countryName: "Chile",
     paperTitle:
@@ -630,7 +630,7 @@ export const alumni: Alumnus[] = [
     longitude: -70.6531,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Kian Purna Sinki",
     countryName: "Indonesia",
     paperTitle:
@@ -644,7 +644,7 @@ export const alumni: Alumnus[] = [
     longitude: 106.844,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Carlos Tatapu",
     countryName: "Solomon Islands",
     paperTitle:
@@ -658,7 +658,7 @@ export const alumni: Alumnus[] = [
     longitude: 160.015,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Gino Steven González Ilama",
     countryName: "Costa Rica",
     paperTitle:
@@ -668,7 +668,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Volcanes sin Fronteras, Costa Rica.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Nathalie Yoliana CHAVARRÍA ESQUIVEL",
     countryName: "Costa Rica",
     paperTitle:
@@ -681,7 +681,7 @@ export const alumni: Alumnus[] = [
     longitude: -84.0833,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Ardian Yudhi OCTANTYO",
     countryName: "Indonesia",
     paperTitle:
@@ -695,7 +695,7 @@ export const alumni: Alumnus[] = [
     longitude: 106.844,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Lkhagvadorj DALAIJARGAL",
     countryName: "Mongolia",
     paperTitle:
@@ -709,7 +709,7 @@ export const alumni: Alumnus[] = [
     longitude: 106.92,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Dagzinmaa Lkhagva",
     countryName: "Mongolia",
     paperTitle: "sPg WAVES OBSERVED FOR THE 2012 BAYANBULAG EARTHQUAKE,",
@@ -722,7 +722,7 @@ export const alumni: Alumnus[] = [
     longitude: 106.92,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Bryan Austria NADIMPALLY",
     countryName: "Philippines",
     paperTitle:
@@ -737,7 +737,7 @@ export const alumni: Alumnus[] = [
     longitude: 121.0506,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Rajib Kanti BISWAS",
     countryName: "Bangladesh",
     paperTitle:
@@ -750,7 +750,7 @@ export const alumni: Alumnus[] = [
     longitude: 90.4,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "PEMA",
     countryName: "Bhutan",
     paperTitle:
@@ -764,7 +764,7 @@ export const alumni: Alumnus[] = [
     longitude: 89.639,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Víctor Pablo Díaz Gómez",
     countryName: "Chile",
     paperTitle:
@@ -777,7 +777,7 @@ export const alumni: Alumnus[] = [
     longitude: -70.6505,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "William Alexander Ramos Hernandez",
     countryName: "El Salvador",
     paperTitle:
@@ -791,7 +791,7 @@ export const alumni: Alumnus[] = [
     longitude: -89.2816,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Carlos Hugo Delgado Rodriguez",
     countryName: "Mexico",
     paperTitle:
@@ -806,7 +806,7 @@ export const alumni: Alumnus[] = [
     longitude: -99.1465,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Nwet Nwet Yi",
     countryName: "Myanmar",
     paperTitle:
@@ -819,7 +819,7 @@ export const alumni: Alumnus[] = [
     longitude: 96.0785,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Amit VARMA",
     countryName: "Nepal",
     paperTitle:
@@ -833,7 +833,7 @@ export const alumni: Alumnus[] = [
     longitude: 83.55,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Joseph Christopher A. OROPEL",
     countryName: "Philippines",
     paperTitle:
@@ -847,7 +847,7 @@ export const alumni: Alumnus[] = [
     longitude: 120.9793,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Md. Mominur RAHMAN",
     countryName: "Bangladesh",
     paperTitle:
@@ -860,7 +860,7 @@ export const alumni: Alumnus[] = [
     longitude: 90.382759,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Ngun Za Iang",
     countryName: "Myanmar",
     paperTitle: "COMPLETENESS MAGNITUDE OF EARTHQUAKES AND b-VALUE IN MYANMAR,",
@@ -873,7 +873,7 @@ export const alumni: Alumnus[] = [
     longitude: 96.078514,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Praveen Pratap ADHIKARI",
     countryName: "Nepal",
     paperTitle:
@@ -887,7 +887,7 @@ export const alumni: Alumnus[] = [
     longitude: 85.326947,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Jyoti LAMSAL",
     countryName: "Nepal",
     paperTitle:
@@ -900,7 +900,7 @@ export const alumni: Alumnus[] = [
     longitude: 84.440155,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Phadera DHIRA",
     countryName: "Nepal",
     paperTitle:
@@ -914,7 +914,7 @@ export const alumni: Alumnus[] = [
     longitude: 85.326947,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Robert Jay N. PANALIGAN",
     countryName: "Philippines",
     paperTitle:
@@ -928,7 +928,7 @@ export const alumni: Alumnus[] = [
     longitude: 120.9793,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Laura Alexandra GONZALEZ RODRIGUEZ",
     countryName: "Colombia",
     paperTitle:
@@ -941,7 +941,7 @@ export const alumni: Alumnus[] = [
     longitude: -74.0863,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Michael LINTHON",
     countryName: "Ecuador",
     paperTitle:
@@ -954,7 +954,7 @@ export const alumni: Alumnus[] = [
     longitude: 84.440155,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Elliet Del Carmen PEREZ ROMERO",
     countryName: "Nicaragua",
     paperTitle:
@@ -968,7 +968,7 @@ export const alumni: Alumnus[] = [
     longitude: -86.2525,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Suman SAHA",
     countryName: "Bangladesh",
     paperTitle:
@@ -981,7 +981,7 @@ export const alumni: Alumnus[] = [
     longitude: 90.3828,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Ibrahim ZAHRA",
     countryName: "Egypt",
     paperTitle:
@@ -995,7 +995,7 @@ export const alumni: Alumnus[] = [
     longitude: 31.3172,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Naresh MAHARJAN",
     countryName: "Nepal",
     paperTitle:
@@ -1008,7 +1008,7 @@ export const alumni: Alumnus[] = [
     longitude: 85.324,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Cinthia CALDERON",
     countryName: "Peru",
     paperTitle:
@@ -1022,7 +1022,7 @@ export const alumni: Alumnus[] = [
     longitude: -77.0508,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Md. KAMRUZZAMAN",
     countryName: "Bangladesh",
     paperTitle:
@@ -1035,7 +1035,7 @@ export const alumni: Alumnus[] = [
     longitude: 90.4,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Sk Toufiqur RAHMAN",
     countryName: "Bangladesh",
     paperTitle:
@@ -1048,7 +1048,7 @@ export const alumni: Alumnus[] = [
     longitude: -70.6826,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "ALVAREZ REYES Ronald Stephan",
     countryName: "Chile",
     paperTitle: "HEALTH MONITORING OF BUILDING USING SEISMIC INTERFEROMETRY,",
@@ -1061,7 +1061,7 @@ export const alumni: Alumnus[] = [
     longitude: -89.1914,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Jorge Alberto Stanley FLORES GONZALEZ",
     countryName: "El Salvador",
     paperTitle:
@@ -1075,7 +1075,7 @@ export const alumni: Alumnus[] = [
     longitude: -89.2182,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Luis Ernesto MIXCO DURAN",
     countryName: "El Salvador",
     paperTitle:
@@ -1089,7 +1089,7 @@ export const alumni: Alumnus[] = [
     longitude: -89.1915,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Rene Francisco NUNEZ Orellana",
     countryName: "El Salvador",
     paperTitle:
@@ -1103,7 +1103,7 @@ export const alumni: Alumnus[] = [
     longitude: -89.1915,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "William Roberto GUZMAN CALDERON",
     countryName: "El Salvador",
     paperTitle:
@@ -1117,7 +1117,7 @@ export const alumni: Alumnus[] = [
     longitude: 77.209,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Tarun CHAUHAN",
     countryName: "India",
     paperTitle:
@@ -1131,7 +1131,7 @@ export const alumni: Alumnus[] = [
     longitude: -6.8417,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Nabil MEKAOUI",
     countryName: "Morocco",
     paperTitle:
@@ -1145,7 +1145,7 @@ export const alumni: Alumnus[] = [
     longitude: -86.2525,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Jorge Vigarny ROJAS GONZALEZ",
     countryName: "Nicaragua",
     paperTitle:
@@ -1159,7 +1159,7 @@ export const alumni: Alumnus[] = [
     longitude: -77.0508,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Daniel Felipe ESCALANTE MARINO",
     countryName: "Peru",
     paperTitle:
@@ -1173,7 +1173,7 @@ export const alumni: Alumnus[] = [
     longitude: 120.2314,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Rizalyn Centino ILUMIN",
     countryName: "Philippines",
     paperTitle:
@@ -1186,7 +1186,7 @@ export const alumni: Alumnus[] = [
     longitude: 31.3172,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "MOHAMED Elsayed",
     countryName: "Egypt",
     paperTitle:
@@ -1200,7 +1200,7 @@ export const alumni: Alumnus[] = [
     longitude: -86.2528,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Ulbert GRILLO RODRIGUEZ",
     countryName: "Nicaragua",
     paperTitle:
@@ -1214,7 +1214,7 @@ export const alumni: Alumnus[] = [
     longitude: 121.0506,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Bhenz RODRIGUEZ",
     countryName: "Philippines",
     paperTitle:
@@ -1229,7 +1229,7 @@ export const alumni: Alumnus[] = [
     longitude: 121.0506,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Edwin Viracucha",
     countryName: "Ecuador",
     paperTitle:
@@ -1238,7 +1238,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Mohamed Salah Hasaballah Ali MAKLAD",
     countryName: "Egypt",
     paperTitle:
@@ -1247,7 +1247,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Babita SHARMA",
     countryName: "India",
     paperTitle:
@@ -1256,7 +1256,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Jonatan ARREOLA-MANZANO",
     countryName: "Mexico",
     paperTitle:
@@ -1265,7 +1265,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Sergio Alberto GALAVIZ ALONSO",
     countryName: "Mexico",
     paperTitle: "NUMERICAL SIMULATION OF SEISMIC WAVES FOR MEXICAN BASIN,",
@@ -1273,7 +1273,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Chintan TIMSINA",
     countryName: "Nepal",
     paperTitle:
@@ -1282,7 +1282,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Tara POKHAREL",
     countryName: "Nepal",
     paperTitle:
@@ -1291,7 +1291,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Raouf BENCHARIF",
     countryName: "Algeria",
     paperTitle:
@@ -1300,7 +1300,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "A.K.M. Sajadur RAHMAN",
     countryName: "Bangladesh",
     paperTitle:
@@ -1309,7 +1309,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Md. Arifujjaman",
     countryName: "Bangladesh",
     paperTitle:
@@ -1318,7 +1318,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Mohammad Tariqul ISLAM",
     countryName: "Bangladesh",
     paperTitle:
@@ -1327,7 +1327,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Alejandra Marcela MEMBREÑO MARTINEZ",
     countryName: "El Salvador",
     paperTitle:
@@ -1336,7 +1336,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Juan Diego VALENCIA MARMOL",
     countryName: "El Salvador",
     paperTitle:
@@ -1345,7 +1345,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Yuuki Alejandro HOSAKA VENTURA",
     countryName: "El Salvador",
     paperTitle:
@@ -1354,7 +1354,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Melanie Bruel PAGCALIWANGAN",
     countryName: "Philippines",
     paperTitle:
@@ -1363,7 +1363,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Ali Erhan YILMAZ",
     countryName: "Turkey",
     paperTitle:
@@ -1372,7 +1372,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Leonardo ALVARADO GARCIA",
     countryName: "Ecuador",
     paperTitle: "TSUNAMI INUNDATION DATABASE FOR JARAMIJÓ, ECUADOR,",
@@ -1380,7 +1380,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Abutaleb Ali ABUTALEB AMIN",
     countryName: "Egypt",
     paperTitle:
@@ -1389,7 +1389,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Amilcar Geovanny CABRERA RAMIREZ",
     countryName: "Nicaragua",
     paperTitle:
@@ -1398,7 +1398,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Domingo Jose NAMENDI MARTINEZ",
     countryName: "Nicaragua",
     paperTitle:
@@ -1407,7 +1407,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Nabilt Jill MOGGIANO ABURTO",
     countryName: "Peru",
     paperTitle:
@@ -1416,7 +1416,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Amar BENFEDDA",
     countryName: "Algeria",
     paperTitle:
@@ -1425,7 +1425,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Hamada Saadalla Mahmoud MOHAMED",
     countryName: "Egypt",
     paperTitle:
@@ -1434,7 +1434,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Sagynbek Orunbaev",
     countryName: "Kyrgyzstan",
     paperTitle:
@@ -1443,7 +1443,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Kyaw Zayar Naing",
     countryName: "Myanmar",
     paperTitle: "FOCAL MECHANISM DETERMINATION OF LOCAL EARTHQUAKE IN MYANMAR,",
@@ -1451,7 +1451,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Felix Balthasar Taranu",
     countryName: "Papua New Guinea",
     paperTitle:
@@ -1460,7 +1460,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Arianne Gail Saluta RIVERA",
     countryName: "Philippines",
     paperTitle:
@@ -1469,7 +1469,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Abdelkader BENYOUCEF",
     countryName: "Algeria",
     paperTitle:
@@ -1478,7 +1478,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Boni AMIN",
     countryName: "Bangladesh",
     paperTitle:
@@ -1487,7 +1487,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Lintu GAZI",
     countryName: "Bangladesh",
     paperTitle:
@@ -1496,7 +1496,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Md.Hajbul KABIR",
     countryName: "Bangladesh",
     paperTitle:
@@ -1505,7 +1505,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Mohamed Abdelrasoul Ahmed SHAHEEN",
     countryName: "Egypt",
     paperTitle:
@@ -1514,7 +1514,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Manuel Arturo SALAZAR NAVIDAD",
     countryName: "El Salvador",
     paperTitle:
@@ -1523,7 +1523,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Abhishek Gopal",
     countryName: "India",
     paperTitle:
@@ -1532,7 +1532,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Ashish Gupta",
     countryName: "India",
     paperTitle: "SEISMIC ISOLATION SYSTEMS IN INDIAN PERSPECTIVE,",
@@ -1540,7 +1540,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Max Miguel FARIÑAS PEREZ",
     countryName: "Nicaragua",
     paperTitle:
@@ -1549,7 +1549,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Rommel David Zambrana Areas",
     countryName: "Nicaragua",
     paperTitle:
@@ -1558,7 +1558,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Amos Fimiamba",
     countryName: "Papua New Guinea",
     paperTitle:
@@ -1567,7 +1567,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Sharl Narvet Noboa Teran",
     countryName: "Ecuador",
     paperTitle:
@@ -1576,7 +1576,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Greyving José Argüello Miranda",
     countryName: "Nicaragua",
     paperTitle:
@@ -1585,7 +1585,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Martha Vanessa Herrera Jimenez",
     countryName: "Nicaragua",
     paperTitle:
@@ -1594,7 +1594,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Dandy N. Camero",
     countryName: "Philippines",
     paperTitle:
@@ -1603,7 +1603,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Moad CHIKH",
     countryName: "Algeria",
     paperTitle:
@@ -1612,7 +1612,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Baasanbat TSAGAAN",
     countryName: "Mongolia",
     paperTitle: "RECEIVER FUNCTION STUDY \\nIN THE ULAANBAATAR REGION,",
@@ -1620,7 +1620,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Baigalimaa GANBAT",
     countryName: "Mongolia",
     paperTitle:
@@ -1629,7 +1629,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Ganzorig DAVAASUREN",
     countryName: "Mongolia",
     paperTitle:
@@ -1638,7 +1638,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Kyaw Kyaw Lin",
     countryName: "Myanmar",
     paperTitle:
@@ -1647,7 +1647,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Nadia Eda MACAVILCA ROJAS",
     countryName: "Peru",
     paperTitle:
@@ -1656,7 +1656,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Johnlery Pino DEXIMO",
     countryName: "Philippines",
     paperTitle: "DETERMINATION OF LOCAL MAGNITUDE SCALE FOR THE PHILIPPINES,",
@@ -1664,7 +1664,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Md. Jahidul Islam KHAN",
     countryName: "Bangladesh",
     paperTitle:
@@ -1673,7 +1673,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Md. Shafiul ISLAM",
     countryName: "Bangladesh",
     paperTitle:
@@ -1682,7 +1682,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Gino Francisco CABALLERO MORALES",
     countryName: "El Salvador",
     paperTitle:
@@ -1691,7 +1691,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Nelson Alejandro QUINTANILLA PINTO",
     countryName: "El Salvador",
     paperTitle:
@@ -1700,7 +1700,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Harish Chandra LAMICHHANE",
     countryName: "Nepal",
     paperTitle:
@@ -1709,7 +1709,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Nagendra Ray YADAV",
     countryName: "Nepal",
     paperTitle: "EFFECTIVENESS OF BUILDING CODE IMPLEMENTATION IN NEPAL,",
@@ -1717,7 +1717,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Pedro Manuel DULANTO GUTIERREZ",
     countryName: "Nicaragua",
     paperTitle:
@@ -1726,7 +1726,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Mary Criss SUAREZ ANTUNEZ",
     countryName: "Peru",
     paperTitle:
@@ -1735,7 +1735,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Kathrine Anne M. CAILING",
     countryName: "Philippines",
     paperTitle:
@@ -1744,7 +1744,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Suppachai SINTHAWORN",
     countryName: "Thailand",
     paperTitle:
@@ -1753,7 +1753,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Patricia ARREAGA VARGAS",
     countryName: "Ecuador",
     paperTitle:
@@ -1762,7 +1762,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Teresa VERA SAN MARTIN",
     countryName: "Ecuador",
     paperTitle:
@@ -1771,7 +1771,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Fauzi",
     countryName: "Indonesia",
     paperTitle:
@@ -1780,7 +1780,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Urip Setiyono",
     countryName: "Indonesia",
     paperTitle:
@@ -1789,7 +1789,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Emilio Adán TALAVERA MARTINEZ",
     countryName: "Nicaragua",
     paperTitle: "TSUNAMI SIMULATION FOR THE 1992\\nNICARAGUA EARTHQUAKE,",
@@ -1797,7 +1797,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Karl Vincent Colobong SORIANO",
     countryName: "Philippines",
     paperTitle:
@@ -1806,7 +1806,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "GHERBOUDJ Faouzi",
     countryName: "Algeria",
     paperTitle:
@@ -1815,7 +1815,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "GHONYAN Ara",
     countryName: "Armenia",
     paperTitle:
@@ -1824,7 +1824,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "PUTRI Yanuarsih Tunggal",
     countryName: "Indonesia",
     paperTitle:
@@ -1833,7 +1833,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "TIN MYO AUNG",
     countryName: "Myanmar",
     paperTitle:
@@ -1842,7 +1842,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "BHATTARAI Mukunda",
     countryName: "Nepal",
     paperTitle:
@@ -1851,7 +1851,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "ZAMBRANA AREAS Xochilt Esther",
     countryName: "Nicaragua",
     paperTitle:
@@ -1860,7 +1860,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "REHMAN Shafiq Ur",
     countryName: "Pakistan",
     paperTitle:
@@ -1869,7 +1869,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "ZAHID Raza",
     countryName: "Pakistan",
     paperTitle:
@@ -1878,7 +1878,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "VASQUEZ STANESCU Raquel Noemi",
     countryName: "Venezuela (Bolivarian Republic of)",
     paperTitle: "DETERMINATION OF LOCAL MAGNITUDE SCALE ML FOR VENEZUELA,",
@@ -1886,7 +1886,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "HUQ Md. Emdadul",
     countryName: "Bangladesh",
     paperTitle:
@@ -1895,7 +1895,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Shamsul Islam",
     countryName: "Bangladesh",
     paperTitle:
@@ -1904,7 +1904,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "URRUTIA BARRIOS Pamela",
     countryName: "El Salvador",
     paperTitle:
@@ -1913,7 +1913,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "MULIA Adhi Yudha",
     countryName: "Indonesia",
     paperTitle:
@@ -1922,7 +1922,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "FLORES TERREROS Erika Nora",
     countryName: "Peru",
     paperTitle:
@@ -1931,7 +1931,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "BALAL Onur",
     countryName: "Turkey",
     paperTitle:
@@ -1940,7 +1940,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "BINBIR Ergun",
     countryName: "Turkey",
     paperTitle:
@@ -1949,7 +1949,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "BUDIARTA",
     countryName: "Indonesia",
     paperTitle:
@@ -1958,7 +1958,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "NURPUJIONO",
     countryName: "Indonesia",
     paperTitle:
@@ -1967,7 +1967,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "MYO NAN DA AUNG",
     countryName: "Myanmar",
     paperTitle:
@@ -1976,7 +1976,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "MORALES TOVAR Jorge Manuel",
     countryName: "Peru",
     paperTitle:
@@ -1985,7 +1985,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "XIE Quancai",
     countryName: "China",
     paperTitle:
@@ -1996,7 +1996,7 @@ export const alumni: Alumnus[] = [
       "Institute of Engineering Mechanics (IEM), China Earthquake Administration (CEA), Harbin, China.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Lian Chao",
     countryName: "China",
     paperTitle:
@@ -2006,7 +2006,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Earthquake Administration of Hubei Province, CEA.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Chiko Bhakti Mulia WIRADIKARTA",
     countryName: "Indonesia",
     paperTitle:
@@ -2017,7 +2017,7 @@ export const alumni: Alumnus[] = [
       "Research Institute for Human Settlements (RIHS), Ministry of Public Works, Indonesia.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Andiyansyah Z. Sabarani",
     countryName: "Indonesia",
     paperTitle:
@@ -2028,7 +2028,7 @@ export const alumni: Alumnus[] = [
       "Meteorological Climatological and Geophysical Agency (BMKG) of Indonesia.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Sepehr RAJABI BANIANI",
     countryName: "Iran (Islamic Republic of)",
     paperTitle:
@@ -2038,7 +2038,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Geological Survey of Iran.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Petronila Guadalupe Flores Ayerdis",
     countryName: "Nicaragua",
     paperTitle:
@@ -2049,7 +2049,7 @@ export const alumni: Alumnus[] = [
       "Institute of Geology and Geophysics, National Autonomous University of Nicaragua (IGG-CIGEO/UNAN-Managua).",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Armando Sifuentes",
     countryName: "Peru",
     paperTitle:
@@ -2060,7 +2060,7 @@ export const alumni: Alumnus[] = [
       "Japan-Peru Center for Earthquake Engineering Research and Disaster Mitigation (CISMID), Lima, Peru",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Rey M. Lumbang",
     countryName: "Philippines",
     paperTitle:
@@ -2071,7 +2071,7 @@ export const alumni: Alumnus[] = [
       "Philippine Institute of Volcanology and Seismology (PHIVOLCS), Department of Science and Technology.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "NYAGO Joseph",
     countryName: "Uganda",
     paperTitle: "DETERMINATION OF LOCAL MAGNITUDE SCALE FOR UGANDA,",
@@ -2081,7 +2081,7 @@ export const alumni: Alumnus[] = [
       "Department of Geological Survey and Mines, Seismology Unit (DGSM) Entebbe, Uganda.",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Nazeli GALSTYAN",
     countryName: "Armenia",
     paperTitle:
@@ -2092,7 +2092,7 @@ export const alumni: Alumnus[] = [
       "Western Survey for Seismic Protection, Ministry of Emergency Situations, Yerevan city, Armenia.",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Rocio Rivera",
     countryName: "Chile",
     paperTitle:
@@ -2102,7 +2102,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Santolaya Ingenieros Consultores, Chile.",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Yesica Hypatia Perez Alejandro",
     countryName: "Dominican Republic",
     paperTitle:
@@ -2113,7 +2113,7 @@ export const alumni: Alumnus[] = [
       "Unit of Evaluation of Seismic Vulnerability of Infrastructure, Building and Housing, National Geological Survey (SGN), Dominican Republic",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Way Phyo Linn",
     countryName: "Myanmar",
     paperTitle:
@@ -2124,7 +2124,7 @@ export const alumni: Alumnus[] = [
       "Public Works, Ministry of Construction, Naypyidaw, Myanmar.",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Bir Bahadur KHADKA",
     countryName: "Nepal",
     paperTitle: "SEISMIC EVALUATION AND RETROFIT OF RC BUILDING, IN NEPAL,",
@@ -2134,7 +2134,7 @@ export const alumni: Alumnus[] = [
       "Disaster Management Section, Urban Development Department, Kathmandu Metropolitan City Office, Nepal.",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Gilbert Kapi",
     countryName: "Papua New Guinea",
     paperTitle:
@@ -2145,7 +2145,7 @@ export const alumni: Alumnus[] = [
       "Department of Works (Operations Division), Papua New Guinea.",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Pinar INCI KOCAK",
     countryName: "Turkey",
     paperTitle:
@@ -2156,7 +2156,7 @@ export const alumni: Alumnus[] = [
       "Istanbul Technical University, Structural and Earthquake Engineering Laboratory, Istanbul, Turkey",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Guvanch Annayev",
     countryName: "Turkmenistan",
     paperTitle:
@@ -2167,7 +2167,7 @@ export const alumni: Alumnus[] = [
       "Principal engineer, The Scientific Research Institute of Seismic Resistance Construction of the Ministry of Construction of Turkmenistan.",
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Mauricio REYES GALLARDO",
     countryName: "Chile",
     paperTitle:
@@ -2178,7 +2178,7 @@ export const alumni: Alumnus[] = [
       "Civil Engineer, Professor, Ocean Engineering School, University of Valparaíso, Chile.",
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Su Hninn Htwe",
     countryName: "Myanmar",
     paperTitle:
@@ -2188,7 +2188,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Department of Meteorology and Hydrology (DMH) of Myanmar",
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Martin WAREK",
     countryName: "Papua New Guinea",
     paperTitle:
@@ -2199,7 +2199,7 @@ export const alumni: Alumnus[] = [
       "Department of Works, Government of Papua New Guinea, Port Moresby, Papua New Guinea.",
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Julius Galdiano",
     countryName: "Philippines",
     paperTitle:
@@ -2210,7 +2210,7 @@ export const alumni: Alumnus[] = [
       "Philippine Institute of Volcanology and Seismology (PHIVOLCS)- Department of Science and Technology (DOST), Philippines",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Rafig Safarov",
     countryName: "Azerbaijan",
     paperTitle:
@@ -2221,7 +2221,7 @@ export const alumni: Alumnus[] = [
       "Geology Institute of Azerbaijan National Academy of Sciences, Baku , Azerbaijan.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "LIU Rong",
     countryName: "China",
     paperTitle:
@@ -2231,7 +2231,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Nanjing Municipal Earthquake Bureau, P. R. China",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Jottin M. leonel Collado",
     countryName: "Dominican Republic",
     paperTitle:
@@ -2241,7 +2241,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "National Geological Survey (SGN) of Dominican Republic",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Fabricio Moquete Everth",
     countryName: "Dominican Republic",
     paperTitle:
@@ -2252,7 +2252,7 @@ export const alumni: Alumnus[] = [
       "Seismological Institute of Universidad Autonoma de Santo Domingo.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Biana Rahayu Wulandari",
     countryName: "Indonesia",
     paperTitle:
@@ -2263,7 +2263,7 @@ export const alumni: Alumnus[] = [
       "Agency for Meteorology, Climatology and Geophysics, Indonesia.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Dashdondog Mungunsuren",
     countryName: "Mongolia",
     paperTitle:
@@ -2274,7 +2274,7 @@ export const alumni: Alumnus[] = [
       "Research Center of Astronomy and Geophysics of Mongolian Academy of Sciences (RCAG, MAS).",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Shahid Mahmood",
     countryName: "Pakistan",
     paperTitle:
@@ -2284,7 +2284,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Pakistan Meteorological Department (PMD).",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Zahid Shehzad",
     countryName: "Pakistan",
     paperTitle:
@@ -2295,7 +2295,7 @@ export const alumni: Alumnus[] = [
       "WAPDA Directorate of Seismology, Tarbela Dam Project, Pakistan",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Ahmed Abdullah NOOR",
     countryName: "Bangladesh",
     paperTitle:
@@ -2305,7 +2305,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Public Works Department, Bangladesh.",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Yefei REN",
     countryName: "China",
     paperTitle:
@@ -2316,7 +2316,7 @@ export const alumni: Alumnus[] = [
       "Institute of Engineering Mechanics (IEM), CEA, Harbin, China.",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Johanny M.Hernandez Morals",
     countryName: "Dominican Republic",
     paperTitle:
@@ -2327,7 +2327,7 @@ export const alumni: Alumnus[] = [
       "National Office of Seismic Evaluation and Vulnerability of Infrastructures and Buildings, ONESVIE, Dominican Republic.",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Jose Roberto GUERRA CARBALLO",
     countryName: "El Salvador",
     paperTitle:
@@ -2338,7 +2338,7 @@ export const alumni: Alumnus[] = [
       "Urban Planning Office of the San Salvador Metropolitan Area (OPAMSS), El Salvador",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Fritz AUPLAN",
     countryName: "Haiti",
     paperTitle: "AN EARTHQUAKE DAMAGE ESTIMATION TOOL FOR HAITI,",
@@ -2347,7 +2347,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Civil Engineer",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Tedi Achmad Bahtiar",
     countryName: "Indonesia",
     paperTitle:
@@ -2358,7 +2358,7 @@ export const alumni: Alumnus[] = [
       "Research Institute for Human Settlements, Ministry of Public Works, Indonesia",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Goran Jekikj",
     countryName: "North Macedonia",
     paperTitle:
@@ -2369,7 +2369,7 @@ export const alumni: Alumnus[] = [
       "Research Assistant, Institute of Earthquake Engineering and Engineering Seismology (IZIIS), Ss. Cyril and Methodius University in Skopje, Republic of Macedonia",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "NYI Nyi ZAW",
     countryName: "Myanmar",
     paperTitle:
@@ -2380,7 +2380,7 @@ export const alumni: Alumnus[] = [
       "Public Works, Ministry of Construction, Nay Pyi Taw, Myanmar",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Roy Ericksen REYNA SALAZAR",
     countryName: "Peru",
     paperTitle:
@@ -2391,7 +2391,7 @@ export const alumni: Alumnus[] = [
       "Japan-Peru Center for Earthquake Engineering Research and Disaster Mitigation (CISMID), Peru.",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Ruel M.Nazareno",
     countryName: "Philippines",
     paperTitle:
@@ -2402,7 +2402,7 @@ export const alumni: Alumnus[] = [
       "Department of Public Works and Highways-CARAGA, Philippines",
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Dwi Hartanto",
     countryName: "Indonesia",
     paperTitle:
@@ -2413,7 +2413,7 @@ export const alumni: Alumnus[] = [
       "Meteorology Climatology and Geophysics Agency (BMKG), Jakarta, Indonesia",
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Tatok Yatimantoro",
     countryName: "Indonesia",
     paperTitle:
@@ -2424,7 +2424,7 @@ export const alumni: Alumnus[] = [
       "Meteorological Climatological and Geophysical Agency of Indonesia (BMKG)",
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Noor Azam Shaari",
     countryName: "Malaysia",
     paperTitle:
@@ -2434,7 +2434,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Malaysian Meteorological Department",
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Nur Intan Irzwanee Nurashid",
     countryName: "Malaysia",
     paperTitle:
@@ -2444,7 +2444,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Malaysian Meteorological Department (MMD).",
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Siti Nurhaida Basri",
     countryName: "Malaysia",
     paperTitle:
@@ -2454,7 +2454,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Malaysian Meteorological Department (MMD), Malaysia",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Zhang Lifen",
     countryName: "China",
     paperTitle:
@@ -2464,7 +2464,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Earthquake Administration of Hubei Province, China.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Iman Fatchurochman",
     countryName: "Indonesia",
     paperTitle:
@@ -2475,7 +2475,7 @@ export const alumni: Alumnus[] = [
       "Indonesian Agency for Meteorology, Climatology and Geophysics (BMKG).",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Karleen Black",
     countryName: "Jamaica",
     paperTitle:
@@ -2485,7 +2485,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "University of the West Indies, Earthquake Unit, Jamaica.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Atifah Mohd Alwi",
     countryName: "Malaysia",
     paperTitle:
@@ -2496,7 +2496,7 @@ export const alumni: Alumnus[] = [
       "Malaysian Meteorological Department (MMD), Sarawak Regional Forecast Office, Malaysia",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Siti Norbaizura MAT SAID",
     countryName: "Malaysia",
     paperTitle:
@@ -2506,7 +2506,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Malaysian Meteorological Department (MMD), Malaysia.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Kyi Kyi Swe",
     countryName: "Myanmar",
     paperTitle:
@@ -2517,7 +2517,7 @@ export const alumni: Alumnus[] = [
       "The author works for Department of Meteorology and Hydrology, Ministry of Transport, Myanmar.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Nolan C. Evangelista",
     countryName: "Philippines",
     paperTitle:
@@ -2527,7 +2527,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Philippine Institute of Volcanology and Seismology.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Vilma Castillejos Hernandez",
     countryName: "Philippines",
     paperTitle:
@@ -2538,7 +2538,7 @@ export const alumni: Alumnus[] = [
       "Philippine Institute of Volcanology and Seismology–Department of Science and Technology, Philippines.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Mehmet Baykal",
     countryName: "Turkey",
     paperTitle:
@@ -2548,7 +2548,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "∗Disaster and Emergency Management Presidency, Turkey.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Cigdem Tetik",
     countryName: "Turkey",
     paperTitle:
@@ -2559,7 +2559,7 @@ export const alumni: Alumnus[] = [
       "Republic of Turkey, Prime Ministry Disaster and Emergency Management Presidency, Recovery Department,Turkey.",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Qi Wenhao",
     countryName: "China",
     paperTitle:
@@ -2570,7 +2570,7 @@ export const alumni: Alumnus[] = [
       "Institute of Engineering Mechanics (IEM), China Earthquake Administration (CEA), Harbin City, China.",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Sergio Sunley",
     countryName: "El Salvador",
     paperTitle:
@@ -2580,7 +2580,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Universidad Centroamericana José Simeón Cañas.",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Muhammad Rusli",
     countryName: "Indonesia",
     paperTitle:
@@ -2591,7 +2591,7 @@ export const alumni: Alumnus[] = [
       "Researcher, Research Institute for Human Settlements (Puskim), Ministry of Public Works (PU), Indonesia.",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Delvin Martinez",
     countryName: "Nicaragua",
     paperTitle:
@@ -2601,7 +2601,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Geoscientific Research Center, Managua City, Nicaragua",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Bilha Herrera",
     countryName: "Peru",
     paperTitle:
@@ -2611,7 +2611,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Geophysical Institute of Peru (IGP), Lima city, Peru",
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Gian Ginanjar",
     countryName: "Indonesia",
     paperTitle:
@@ -2622,7 +2622,7 @@ export const alumni: Alumnus[] = [
       "Indonesian Agency for Meteorology, Climatology and Geophysics -BMKG (Badan Meteorologi, Klimatologi dan Geofisika) Indonesia",
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Setyoajie Prayoedhie",
     countryName: "Indonesia",
     paperTitle:
@@ -2633,7 +2633,7 @@ export const alumni: Alumnus[] = [
       "Indonesian Agency for Meteorology, Climatology and Geophysics (BMKG), Jakarta, Indonesia.",
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Fatimah Zaharah Saleh",
     countryName: "Malaysia",
     paperTitle:
@@ -2643,7 +2643,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Malaysian Meteorological Department Malaysia.",
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Mazni AZIS",
     countryName: "Malaysia",
     paperTitle: "TSUNAMI NUMERICAL SIMULATION AROUND SULU SEA AND CELEBES SEA,",
@@ -2652,7 +2652,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Malaysian Meteorological Department (MMD).",
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Sheila Yauri",
     countryName: "Peru",
     paperTitle:
@@ -2662,7 +2662,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Geophysical Institute of Peru, Lima – Peru.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Li Xiao Fan",
     countryName: "China",
     paperTitle:
@@ -2673,7 +2673,7 @@ export const alumni: Alumnus[] = [
       "Assistant researcher, China Earthquake Network Center, Beijing, China.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "TORRES CORREDOR Roberto Armando",
     countryName: "Colombia",
     paperTitle:
@@ -2684,7 +2684,7 @@ export const alumni: Alumnus[] = [
       "Colombian Institute of Geology and Mining (INGEOMINAS), Pasto, Colombia.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "ELSIE Benedict Jaimin",
     countryName: "Malaysia",
     paperTitle:
@@ -2695,7 +2695,7 @@ export const alumni: Alumnus[] = [
       "Malaysian Meteorological Department, Sabah Regional Forecast Office, Malaysia.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "ZAHRATUL Ain Din",
     countryName: "Malaysia",
     paperTitle:
@@ -2705,7 +2705,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Malaysian Meteorological Department (MMD), Malaysia.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Oo Than",
     countryName: "Myanmar",
     paperTitle:
@@ -2716,7 +2716,7 @@ export const alumni: Alumnus[] = [
       "Department of Meteorology and Hydrology (DMH) of Myanmar.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "SHRESTHA Prithvi Lal",
     countryName: "Nepal",
     paperTitle:
@@ -2727,7 +2727,7 @@ export const alumni: Alumnus[] = [
       "National Seismological Centre, Department of Mines & Geology, Kathmandu, Nepal.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Khan Agha BABAR Ali",
     countryName: "Pakistan",
     paperTitle: "VALIDATION OF SPAC AND HVSR METHODS, AN EXPERIMENTAL STUDY,",
@@ -2737,7 +2737,7 @@ export const alumni: Alumnus[] = [
       "Pakistan Meteorological Department (PMD), Islamabad, Pakistan.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "QUISPE GAMERO Mileyvi Selene",
     countryName: "Peru",
     paperTitle:
@@ -2748,7 +2748,7 @@ export const alumni: Alumnus[] = [
       "Japan Peru Center for Earthquake Engineering and Disaster Mitigation (CISMID), Lima city, Peru",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "SALCEDO Joan Cruz",
     countryName: "Philippines",
     paperTitle:
@@ -2759,7 +2759,7 @@ export const alumni: Alumnus[] = [
       "Philippine Institute of Volcanology and Seismology – Department of Science and Technology (PHIVOLCS-DOST), Philippines.",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Taleb Rafik",
     countryName: "Algeria",
     paperTitle:
@@ -2770,7 +2770,7 @@ export const alumni: Alumnus[] = [
       "National Center of Applied Research on Earthquake Engineering (CGS), Algeria.",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "TAO Zheng Ru",
     countryName: "China",
     paperTitle:
@@ -2781,7 +2781,7 @@ export const alumni: Alumnus[] = [
       "Institute of Engineering Mechanics, China Earthquake Administration.",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Alvarado Funes Rolando Jose",
     countryName: "El Salvador",
     paperTitle:
@@ -2791,7 +2791,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "University of El Salvador (UES).",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Funes Hernandez Carlos Antonio",
     countryName: "El Salvador",
     paperTitle:
@@ -2801,7 +2801,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Seprobia Soil Testing Laboratory, El Salvador.",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Ramos Huezo Jose Adolfo",
     countryName: "El Salvador",
     paperTitle:
@@ -2811,7 +2811,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Simeon Canas University, El Salvador",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Kusworo Darpito",
     countryName: "Indonesia",
     paperTitle:
@@ -2821,7 +2821,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Ministry of Public Work, the Republic of Indonesia.",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Sevilla Cano Samuel Enrique",
     countryName: "Nicaragua",
     paperTitle:
@@ -2832,7 +2832,7 @@ export const alumni: Alumnus[] = [
       "Centro de Investigaciones Goescientificas CIGEO/UNAN-Managua, Nicaragua.",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "BEDRIÑANA Luis Alberto",
     countryName: "Peru",
     paperTitle:
@@ -2843,7 +2843,7 @@ export const alumni: Alumnus[] = [
       "Center for Earthquake Engineering Research and Disaster Mitigation (CISMID), Peru.",
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Rawaikala Unaisi Rabetabeta",
     countryName: "Fiji",
     paperTitle:
@@ -2853,7 +2853,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Mineral Resources Department, Suva, Fiji.",
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Weniza",
     countryName: "Indonesia",
     paperTitle:
@@ -2864,7 +2864,7 @@ export const alumni: Alumnus[] = [
       "Meteorological Climatological and Geophysical Agency (BMKG), Jakarta, Indonesia.",
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "WIJAYANTO",
     countryName: "Indonesia",
     paperTitle:
@@ -2875,7 +2875,7 @@ export const alumni: Alumnus[] = [
       "Meteorological Climatological and Geophysical Agency (BMKG), Indonesia.",
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Mohd Ridzuan Bin Adam",
     countryName: "Malaysia",
     paperTitle:
@@ -2885,7 +2885,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Malaysian Meteorological Department (MMD).",
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Adriano Ortega Bruno",
     countryName: "Peru",
     paperTitle:
@@ -2896,7 +2896,7 @@ export const alumni: Alumnus[] = [
       "Japan Peru Center for Earthquake Engineering and Disaster Mitigation (CISMID), Peru.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Wang Dun",
     countryName: "China",
     paperTitle:
@@ -2907,7 +2907,7 @@ export const alumni: Alumnus[] = [
       "Institute of Seismology, China Earthquake Administration, China.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "LI Jinggang",
     countryName: "China",
     paperTitle:
@@ -2918,7 +2918,7 @@ export const alumni: Alumnus[] = [
       "Institute of Seismology, China Earthquake Administration, China.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Nelson Eduardo Ayala Leiva",
     countryName: "El Salvador",
     paperTitle:
@@ -2928,7 +2928,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Universidad Centroamericana José Simeón Cañas.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Aderito Celso Felix Aramuge",
     countryName: "Mozambique",
     paperTitle: "TSUNAMI HAZARD ASSESSMENT IN MOZAMBIQUE COAST,",
@@ -2938,7 +2938,7 @@ export const alumni: Alumnus[] = [
       "National Institute of Meteorology (INAM), Republic of Mozambique.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "PHYO Maung Maung",
     countryName: "Myanmar",
     paperTitle:
@@ -2948,7 +2948,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Department of Meteorology and Hydrology (DMH), Myanmar.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Ehsanullah",
     countryName: "Pakistan",
     paperTitle: "PALEOSEISMIC ACTIVE FAULT STUDY IN KINKI TRIANGLE,",
@@ -2957,7 +2957,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Water and Power Development Authority (WAPDA), Pakistan",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Riaz Ahmed Soomro",
     countryName: "Pakistan",
     paperTitle:
@@ -2967,7 +2967,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Micro Seismic Studies Programme, Islamabad, Pakistan.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Poolcharuansin Kannika",
     countryName: "Thailand",
     paperTitle:
@@ -2978,7 +2978,7 @@ export const alumni: Alumnus[] = [
       "Meteorologist, Seismological Bureau, Thai Meteorological Department, Thailand.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Ozmen Ozgur Tuna",
     countryName: "Turkey",
     paperTitle:
@@ -2988,7 +2988,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "General Directorate of Disaster Affairs, Ankara, Turkey.",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "REN Jun",
     countryName: "China",
     paperTitle:
@@ -2998,7 +2998,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Earthquake Administration of Shaanxi Province, China.",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Hu Shaoqing",
     countryName: "China",
     paperTitle:
@@ -3009,7 +3009,7 @@ export const alumni: Alumnus[] = [
       "Institute of Engineering Mechanics (IEM), China Earthquake Administration (CEA), China",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "SUN Junjie",
     countryName: "China",
     paperTitle:
@@ -3020,7 +3020,7 @@ export const alumni: Alumnus[] = [
       "Assistant Research Fellow, Lanzhou Institute of Seismology, China Earthquake Administration, China.",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Wang Yanwei",
     countryName: "China",
     paperTitle:
@@ -3031,7 +3031,7 @@ export const alumni: Alumnus[] = [
       "Institute of Engineering Mechanics (IEM), China Earthquake Administration (CEA).",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "CAI Xiaoguang",
     countryName: "China",
     paperTitle:
@@ -3042,7 +3042,7 @@ export const alumni: Alumnus[] = [
       "Lecturer, Institute of Disaster Prevention Science and Technology, Beijing, China",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Monica Patricia Gutierrez Martinez",
     countryName: "El Salvador",
     paperTitle:
@@ -3053,7 +3053,7 @@ export const alumni: Alumnus[] = [
       "Universidad Centroamericana José Simeón Cañas of El Salvador",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "S.Murugan",
     countryName: "India",
     paperTitle:
@@ -3064,7 +3064,7 @@ export const alumni: Alumnus[] = [
       "Thanthai Periyar Government Institute of Technology, Vellore, Tamil Nadu, India.",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Lourdes Ana Maria Cardenas Paredes",
     countryName: "Peru",
     paperTitle:
@@ -3075,7 +3075,7 @@ export const alumni: Alumnus[] = [
       "Center for Earthquake Engineering Research and Disaster Mitigation (CISMID) of Peru.",
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Jenny Taira Higa",
     countryName: "Peru",
     paperTitle:
@@ -3086,7 +3086,7 @@ export const alumni: Alumnus[] = [
       "Japan - Peru Center for Earthquake Engineering Research and Disaster Mitigation (CISMID), Peru.",
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Tiar Prasetya",
     countryName: "Indonesia",
     paperTitle:
@@ -3097,7 +3097,7 @@ export const alumni: Alumnus[] = [
       "Geophysical Station, Regional Seismic Center VII – Yogyakarta. Meteorological, Climatological and Geophysical Agency (BMKG) of Indonesia",
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Titi HANDAYANI",
     countryName: "Indonesia",
     paperTitle:
@@ -3108,7 +3108,7 @@ export const alumni: Alumnus[] = [
       "Agency for Meteorology Climatology and Geophysics (BMKG), Indonesia.",
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Tri Handayani",
     countryName: "Indonesia",
     paperTitle: "W PHASE ANALYSIS FOR TSUNAMI WARNING,",
@@ -3118,7 +3118,7 @@ export const alumni: Alumnus[] = [
       "Agency for Meteorology Climatology and Geophysics (BMKG), Indonesia.",
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Zamuna ZAINAL",
     countryName: "Malaysia",
     paperTitle:
@@ -3128,7 +3128,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Malaysian Meteorological Department, Malaysia.",
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Sayeed Ahmed Choudhury",
     countryName: "Bangladesh",
     paperTitle:
@@ -3137,7 +3137,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Md. Rubyet Kabir",
     countryName: "Bangladesh",
     paperTitle:
@@ -3146,7 +3146,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Seru Sefanaia",
     countryName: "Fiji",
     paperTitle:
@@ -3155,7 +3155,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Paulino C. FEITIO",
     countryName: "Mozambique",
     paperTitle:
@@ -3164,7 +3164,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Pa Pa Tun",
     countryName: "Myanmar",
     paperTitle:
@@ -3173,7 +3173,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Dayra Yessenia BLANDON SANDINO",
     countryName: "Nicaragua",
     paperTitle:
@@ -3182,7 +3182,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Nasir Mahmood",
     countryName: "Pakistan",
     paperTitle:
@@ -3191,7 +3191,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "S.W.M. SENEVIRATNE",
     countryName: "Sri Lanka",
     paperTitle:
@@ -3200,7 +3200,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Sule GURBOGA",
     countryName: "Turkey",
     paperTitle:
@@ -3209,7 +3209,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Timur TEZEL",
     countryName: "Turkey",
     paperTitle: "APPLICATION OF RECEIVER FUNCTION TECHNIQUE TO WESTERN TURKEY,",
@@ -3217,7 +3217,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Gong Maosheng",
     countryName: "China",
     paperTitle:
@@ -3226,7 +3226,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Javier Yukio Yamamoto Munoz",
     countryName: "Dominican Republic",
     paperTitle: "QUALITY CONTROL OF RC ELEMENT FOR EARTHQUAKE DESIGN,",
@@ -3234,7 +3234,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Nicolas GUEVARA",
     countryName: "El Salvador",
     paperTitle:
@@ -3243,7 +3243,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Hendarto",
     countryName: "Indonesia",
     paperTitle:
@@ -3252,7 +3252,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Ferri Eka Putra",
     countryName: "Indonesia",
     paperTitle:
@@ -3261,7 +3261,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Prakirna TULADHAR",
     countryName: "Nepal",
     paperTitle:
@@ -3270,7 +3270,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Ghazala Naeem",
     countryName: "Pakistan",
     paperTitle:
@@ -3279,7 +3279,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Miguel Augusto DIAZ FIGUEROA",
     countryName: "Peru",
     paperTitle:
@@ -3288,7 +3288,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Chandima Kularatne",
     countryName: "Sri Lanka",
     paperTitle:
@@ -3297,7 +3297,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Sithipat Palanandana",
     countryName: "Thailand",
     paperTitle:
@@ -3306,7 +3306,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "A.K.M.Ruhul KUDDUS",
     countryName: "Bangladesh",
     paperTitle:
@@ -3315,7 +3315,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Ariska Rudyanto",
     countryName: "Indonesia",
     paperTitle:
@@ -3324,7 +3324,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Athanasius Cipta",
     countryName: "Indonesia",
     paperTitle:
@@ -3333,7 +3333,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "CHAI Mui Fatt",
     countryName: "Malaysia",
     paperTitle:
@@ -3342,7 +3342,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Lasarusa Piutau Vuetibau",
     countryName: "Fiji",
     paperTitle:
@@ -3351,7 +3351,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Iman Suardi",
     countryName: "Indonesia",
     paperTitle:
@@ -3360,7 +3360,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Tun Lin Kyaw",
     countryName: "Myanmar",
     paperTitle:
@@ -3369,7 +3369,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Edwin Nadir Castrillo Osorio",
     countryName: "Nicaragua",
     paperTitle:
@@ -3378,7 +3378,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Afsar Khan",
     countryName: "Pakistan",
     paperTitle:
@@ -3387,7 +3387,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Majed Matar AL-Mutairi",
     countryName: "Saudi Arabia",
     paperTitle:
@@ -3396,7 +3396,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Sanjeevani Nilmini Bandara THALDENA",
     countryName: "Sri Lanka",
     paperTitle:
@@ -3405,7 +3405,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Rami Ibrahim",
     countryName: "Syrian Arab Republic",
     paperTitle:
@@ -3414,7 +3414,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Taciser CETINOL",
     countryName: "Turkey",
     paperTitle: "SURFACE WAVE PHASE VELOCITY DISTRIBUTION \\nOF TURKEY,",
@@ -3422,7 +3422,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Esline Garaebiti",
     countryName: "Vanuatu",
     paperTitle:
@@ -3431,7 +3431,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "YU Shizhou",
     countryName: "China",
     paperTitle:
@@ -3440,7 +3440,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Jorge GRANADOS SOTO",
     countryName: "Costa Rica",
     paperTitle:
@@ -3449,7 +3449,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Emilio Martin Ventura Diaz",
     countryName: "El Salvador",
     paperTitle:
@@ -3458,7 +3458,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Kosh Nath Adhikari",
     countryName: "Nepal",
     paperTitle:
@@ -3467,7 +3467,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Sunil Kumar THAKUR",
     countryName: "Nepal",
     paperTitle:
@@ -3476,7 +3476,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Khan Shahzada",
     countryName: "Pakistan",
     paperTitle: "IMPROVEMENT OF MASONRY STRUCTURES AGAINST SEISMIC FORCE,",
@@ -3484,7 +3484,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Ovidiu BOGDAN",
     countryName: "Romania",
     paperTitle:
@@ -3493,7 +3493,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "AL-HASAWI Abdulrahman",
     countryName: "Saudi Arabia",
     paperTitle:
@@ -3502,7 +3502,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Hussam Eldein Zaineh",
     countryName: "Syrian Arab Republic",
     paperTitle:
@@ -3511,7 +3511,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Ahmet Utku YAZGAN",
     countryName: "Turkey",
     paperTitle:
@@ -3520,7 +3520,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Netai Chandra Dey Sarker",
     countryName: "Bangladesh",
     paperTitle:
@@ -3529,7 +3529,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Sugeng Pribadi",
     countryName: "Indonesia",
     paperTitle:
@@ -3538,7 +3538,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Norhadizah Bte MOHD KHALID",
     countryName: "Malaysia",
     paperTitle: "TSUNAMI EARLY WARNING SYSTEM IN MALAYSIA,",
@@ -3546,7 +3546,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "Zaty Aktar binti Mokhtar",
     countryName: "Malaysia",
     paperTitle:
@@ -3555,7 +3555,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
-    course: "T",
+    course: "Tsunami Disaster Mitigation",
     name: "PRAKHAMMINTARA Phuwieng",
     countryName: "Thailand",
     paperTitle:
@@ -3564,7 +3564,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Nato JORJIASHVILI",
     countryName: "Georgia",
     paperTitle:
@@ -3573,7 +3573,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "SALGURRO GIRON Raul Armando",
     countryName: "Guatemala",
     paperTitle: "SEISMICITY IN ASO VOLCANO,",
@@ -3581,7 +3581,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Himangshu Sekhar MANDAL",
     countryName: "India",
     paperTitle:
@@ -3590,7 +3590,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Rahmat TRIYONO",
     countryName: "Indonesia",
     paperTitle:
@@ -3599,7 +3599,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Adiya MUNKHSAIKHAN",
     countryName: "Mongolia",
     paperTitle:
@@ -3608,7 +3608,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Janak Bahadur CHAND",
     countryName: "Nepal",
     paperTitle:
@@ -3617,7 +3617,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Deniz CAKA",
     countryName: "Turkey",
     paperTitle: "SHEAR-WAVE SPLITTING ANALYSIS IN MARMARA REGION, TURKEY,",
@@ -3625,7 +3625,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "Davran Matkarimovich OTAJANOV",
     countryName: "Uzbekistan",
     paperTitle: "MODELING EARTHQUAKE CYCLES IN THRUST ZONES IN CENTRAL ASIA,",
@@ -3633,7 +3633,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
-    course: "S",
+    course: "Seismology",
     name: "SHUMBA Blessing Tawanda",
     countryName: "Zimbabwe",
     paperTitle:
@@ -3642,7 +3642,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Fraidoon Alkozai",
     countryName: "Afghanistan",
     paperTitle:
@@ -3651,7 +3651,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Neritan Jorgo SHKODRANI",
     countryName: "Albania",
     paperTitle:
@@ -3660,7 +3660,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Mohamed. OUKSILI",
     countryName: "Algeria",
     paperTitle:
@@ -3669,7 +3669,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Qiang MA",
     countryName: "China",
     paperTitle:
@@ -3678,7 +3678,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Jorge MUNOZ BARRANTES",
     countryName: "Costa Rica",
     paperTitle:
@@ -3687,7 +3687,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Roberto Mauricio MERLOS LAINEZ",
     countryName: "El Salvador",
     paperTitle:
@@ -3696,7 +3696,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Jamts ALTANTSETSEG",
     countryName: "Mongolia",
     paperTitle: "EVALUATION OF RETAINING WALLS BY SURFACE–WAVE METHOD,",
@@ -3704,7 +3704,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Leslie Giuliana CHANG CHUMPEN",
     countryName: "Peru",
     paperTitle:
@@ -3713,7 +3713,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Hector Hugo SILVA SANCHEZ",
     countryName: "Peru",
     paperTitle:
@@ -3722,7 +3722,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
-    course: "E",
+    course: "Earthquake Engineering",
     name: "Ariel Arcebuche ONG",
     countryName: "Philippines",
     paperTitle:
