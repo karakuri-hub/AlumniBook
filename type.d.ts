@@ -1,4 +1,5 @@
 type Alumnus = {
+  group: string
   course: string
   name: string
   countryName: CountryName

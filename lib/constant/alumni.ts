@@ -1,5 +1,6 @@
 export const alumni: Alumnus[] = [
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Mariama MADI",
     countryName: "Comoros",
@@ -14,6 +15,7 @@ export const alumni: Alumnus[] = [
     longitude: 43.2536,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Hany Abuelnaga ADAM",
     countryName: "Egypt",
@@ -28,6 +30,7 @@ export const alumni: Alumnus[] = [
     longitude: 31.3172,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Ibrahim SHALABY",
     countryName: "Egypt",
@@ -42,6 +45,7 @@ export const alumni: Alumnus[] = [
     longitude: 31.3172,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Paulo Pangan SAWI",
     countryName: "Philippines",
@@ -57,6 +61,7 @@ export const alumni: Alumnus[] = [
     longitude: 121.0506,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Tshering DENDUP",
     countryName: "Bhutan",
@@ -71,6 +76,7 @@ export const alumni: Alumnus[] = [
     longitude: 89.639,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Faiz SULTHAN",
     countryName: "Indonesia",
@@ -86,6 +92,7 @@ export const alumni: Alumnus[] = [
     longitude: 106.7993,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Nur Shajihan Binti MOHAMED IQBAL",
     countryName: "Malaysia",
@@ -101,6 +108,7 @@ export const alumni: Alumnus[] = [
     longitude: 101.6883,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Nurul NASUHA",
     countryName: "Malaysia",
@@ -115,6 +123,7 @@ export const alumni: Alumnus[] = [
     longitude: 101.6883,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Nurul Zawani binti HAMIDON",
     countryName: "Malaysia",
@@ -129,6 +138,7 @@ export const alumni: Alumnus[] = [
     longitude: 101.6883,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Hani Saber ELBEHIRI",
     countryName: "Egypt",
@@ -143,6 +153,7 @@ export const alumni: Alumnus[] = [
     longitude: 31.3172,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Koroi LESIKIKABARA",
     countryName: "Fiji",
@@ -156,6 +167,7 @@ export const alumni: Alumnus[] = [
     longitude: 178.4419,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Joji MALODALI",
     countryName: "Fiji",
@@ -170,6 +182,7 @@ export const alumni: Alumnus[] = [
     longitude: 178.4419,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Patanjali Kumar CHODAVARAPU",
     countryName: "India",
@@ -185,6 +198,7 @@ export const alumni: Alumnus[] = [
     longitude: 78.3915,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Muhammad HARVAN",
     countryName: "Indonesia",
@@ -199,6 +213,7 @@ export const alumni: Alumnus[] = [
     longitude: 106.844,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Kevyn Enrique PINEDA ORTIZ",
     countryName: "El Salvador",
@@ -213,6 +228,7 @@ export const alumni: Alumnus[] = [
     longitude: 89.1817,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Saula Mule",
     countryName: "Fiji",
@@ -226,6 +242,7 @@ export const alumni: Alumnus[] = [
     longitude: 178.4505,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Aldilla Damayanti Purnama Ratri",
     countryName: "Indonesia",
@@ -240,6 +257,7 @@ export const alumni: Alumnus[] = [
     longitude: 106.844,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Angga Wijaya",
     countryName: "Indonesia",
@@ -254,6 +272,7 @@ export const alumni: Alumnus[] = [
     longitude: 106.844,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Wahyudi Nasrul Pratama",
     countryName: "Indonesia",
@@ -269,6 +288,7 @@ export const alumni: Alumnus[] = [
     longitude: 121.0506,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Tom Carlo E. Simborio",
     countryName: "Philippines",
@@ -284,6 +304,7 @@ export const alumni: Alumnus[] = [
     longitude: 121.0506,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Nassim Ait Ali Slimane",
     countryName: "Algeria",
@@ -298,6 +319,7 @@ export const alumni: Alumnus[] = [
     longitude: 3.1893,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Indrajit Kumar Paul",
     countryName: "Bangladesh",
@@ -312,6 +334,7 @@ export const alumni: Alumnus[] = [
     longitude: 90.3654,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Kunzang Tenzin",
     countryName: "Bhutan",
@@ -326,6 +349,7 @@ export const alumni: Alumnus[] = [
     longitude: 89.639,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Eugenia Campos",
     countryName: "El Salvador",
@@ -341,6 +365,7 @@ export const alumni: Alumnus[] = [
     longitude: -89.2525,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Benjamin Osei Fordjour",
     countryName: "Ghana",
@@ -354,6 +379,7 @@ export const alumni: Alumnus[] = [
     longitude: -0.1716,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Jean Cueva",
     countryName: "Peru",
@@ -368,6 +394,7 @@ export const alumni: Alumnus[] = [
     longitude: -77.0337,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Vitoria Maria de Lillia da Costa Oliveira",
     countryName: "Timor-Leste",
@@ -381,6 +408,7 @@ export const alumni: Alumnus[] = [
     longitude: 13.2302,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Victorina Stephanie Nodis LEGER",
     countryName: "Tonga",
@@ -395,6 +423,7 @@ export const alumni: Alumnus[] = [
     longitude: -175.2086,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Mele Siale Manu",
     countryName: "Tonga",
@@ -408,6 +437,7 @@ export const alumni: Alumnus[] = [
     longitude: -175.2017,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Aziz Widiarso",
     countryName: "Indonesia",
@@ -422,6 +452,7 @@ export const alumni: Alumnus[] = [
     longitude: 106.844,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Sidiq Hargo Pandadaran",
     countryName: "Indonesia",
@@ -435,6 +466,7 @@ export const alumni: Alumnus[] = [
     longitude: 106.844,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Yogha Mahardikha Kuncoro Putra",
     countryName: "Indonesia",
@@ -449,6 +481,7 @@ export const alumni: Alumnus[] = [
     longitude: 106.844,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Nityam Nepal",
     countryName: "Bhutan",
@@ -463,6 +496,7 @@ export const alumni: Alumnus[] = [
     longitude: 89.639,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Mónica Beatriz Olivar Amaya",
     countryName: "El Salvador",
@@ -477,6 +511,7 @@ export const alumni: Alumnus[] = [
     longitude: -89.2525,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Abdul Rosid",
     countryName: "Indonesia",
@@ -491,6 +526,7 @@ export const alumni: Alumnus[] = [
     longitude: 106.844,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Joel Oestar",
     countryName: "Philippines",
@@ -506,6 +542,7 @@ export const alumni: Alumnus[] = [
     longitude: 121.0506,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Geovanio Pedro da Silva Almeida",
     countryName: "Timor-Leste",
@@ -520,6 +557,7 @@ export const alumni: Alumnus[] = [
     longitude: 125.5736,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Mafoa Latu Penisoni",
     countryName: "Tonga",
@@ -535,6 +573,7 @@ export const alumni: Alumnus[] = [
       "Japan Agency for Marine-Earth Science and Technology (JAMSTEC).",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Bidhan Chandra Dey",
     countryName: "Bangladesh",
@@ -548,6 +587,7 @@ export const alumni: Alumnus[] = [
     longitude: 90.3928,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Md. Ibnul Warah",
     countryName: "Bangladesh",
@@ -562,6 +602,7 @@ export const alumni: Alumnus[] = [
     longitude: 90.3654,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Yadav Lal BHATTARAI",
     countryName: "Bhutan",
@@ -576,6 +617,7 @@ export const alumni: Alumnus[] = [
     longitude: 89.6339,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Susan Durán",
     countryName: "El Salvador",
@@ -590,6 +632,7 @@ export const alumni: Alumnus[] = [
     longitude: -89.2182,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Mohd Assyarul Bin Saadun",
     countryName: "Malaysia",
@@ -603,6 +646,7 @@ export const alumni: Alumnus[] = [
     longitude: 101.688,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Syuhaida Suaib",
     countryName: "Malaysia",
@@ -616,6 +660,7 @@ export const alumni: Alumnus[] = [
     longitude: 101.688,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Geronimo Pulido I.",
     countryName: "Chile",
@@ -630,6 +675,7 @@ export const alumni: Alumnus[] = [
     longitude: -70.6531,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Kian Purna Sinki",
     countryName: "Indonesia",
@@ -644,6 +690,7 @@ export const alumni: Alumnus[] = [
     longitude: 106.844,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Carlos Tatapu",
     countryName: "Solomon Islands",
@@ -658,6 +705,7 @@ export const alumni: Alumnus[] = [
     longitude: 160.015,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Gino Steven González Ilama",
     countryName: "Costa Rica",
@@ -668,6 +716,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Volcanes sin Fronteras, Costa Rica.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Nathalie Yoliana CHAVARRÍA ESQUIVEL",
     countryName: "Costa Rica",
@@ -681,6 +730,7 @@ export const alumni: Alumnus[] = [
     longitude: -84.0833,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Ardian Yudhi OCTANTYO",
     countryName: "Indonesia",
@@ -695,6 +745,7 @@ export const alumni: Alumnus[] = [
     longitude: 106.844,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Lkhagvadorj DALAIJARGAL",
     countryName: "Mongolia",
@@ -709,6 +760,7 @@ export const alumni: Alumnus[] = [
     longitude: 106.92,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Dagzinmaa Lkhagva",
     countryName: "Mongolia",
@@ -722,6 +774,7 @@ export const alumni: Alumnus[] = [
     longitude: 106.92,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Bryan Austria NADIMPALLY",
     countryName: "Philippines",
@@ -737,6 +790,7 @@ export const alumni: Alumnus[] = [
     longitude: 121.0506,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Rajib Kanti BISWAS",
     countryName: "Bangladesh",
@@ -750,6 +804,7 @@ export const alumni: Alumnus[] = [
     longitude: 90.4,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "PEMA",
     countryName: "Bhutan",
@@ -764,6 +819,7 @@ export const alumni: Alumnus[] = [
     longitude: 89.639,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Víctor Pablo Díaz Gómez",
     countryName: "Chile",
@@ -777,6 +833,7 @@ export const alumni: Alumnus[] = [
     longitude: -70.6505,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "William Alexander Ramos Hernandez",
     countryName: "El Salvador",
@@ -791,6 +848,7 @@ export const alumni: Alumnus[] = [
     longitude: -89.2816,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Carlos Hugo Delgado Rodriguez",
     countryName: "Mexico",
@@ -806,6 +864,7 @@ export const alumni: Alumnus[] = [
     longitude: -99.1465,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Nwet Nwet Yi",
     countryName: "Myanmar",
@@ -819,6 +878,7 @@ export const alumni: Alumnus[] = [
     longitude: 96.0785,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Amit VARMA",
     countryName: "Nepal",
@@ -833,6 +893,7 @@ export const alumni: Alumnus[] = [
     longitude: 83.55,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Joseph Christopher A. OROPEL",
     countryName: "Philippines",
@@ -847,6 +908,7 @@ export const alumni: Alumnus[] = [
     longitude: 120.9793,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Md. Mominur RAHMAN",
     countryName: "Bangladesh",
@@ -860,6 +922,7 @@ export const alumni: Alumnus[] = [
     longitude: 90.382759,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Ngun Za Iang",
     countryName: "Myanmar",
@@ -873,6 +936,7 @@ export const alumni: Alumnus[] = [
     longitude: 96.078514,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Praveen Pratap ADHIKARI",
     countryName: "Nepal",
@@ -887,6 +951,7 @@ export const alumni: Alumnus[] = [
     longitude: 85.326947,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Jyoti LAMSAL",
     countryName: "Nepal",
@@ -900,6 +965,7 @@ export const alumni: Alumnus[] = [
     longitude: 84.440155,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Phadera DHIRA",
     countryName: "Nepal",
@@ -914,6 +980,7 @@ export const alumni: Alumnus[] = [
     longitude: 85.326947,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Robert Jay N. PANALIGAN",
     countryName: "Philippines",
@@ -928,6 +995,7 @@ export const alumni: Alumnus[] = [
     longitude: 120.9793,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Laura Alexandra GONZALEZ RODRIGUEZ",
     countryName: "Colombia",
@@ -941,6 +1009,7 @@ export const alumni: Alumnus[] = [
     longitude: -74.0863,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Michael LINTHON",
     countryName: "Ecuador",
@@ -954,6 +1023,7 @@ export const alumni: Alumnus[] = [
     longitude: 84.440155,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Elliet Del Carmen PEREZ ROMERO",
     countryName: "Nicaragua",
@@ -968,6 +1038,7 @@ export const alumni: Alumnus[] = [
     longitude: -86.2525,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Suman SAHA",
     countryName: "Bangladesh",
@@ -981,6 +1052,7 @@ export const alumni: Alumnus[] = [
     longitude: 90.3828,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Ibrahim ZAHRA",
     countryName: "Egypt",
@@ -995,6 +1067,7 @@ export const alumni: Alumnus[] = [
     longitude: 31.3172,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Naresh MAHARJAN",
     countryName: "Nepal",
@@ -1008,6 +1081,7 @@ export const alumni: Alumnus[] = [
     longitude: 85.324,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Cinthia CALDERON",
     countryName: "Peru",
@@ -1022,6 +1096,7 @@ export const alumni: Alumnus[] = [
     longitude: -77.0508,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Md. KAMRUZZAMAN",
     countryName: "Bangladesh",
@@ -1035,6 +1110,7 @@ export const alumni: Alumnus[] = [
     longitude: 90.4,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Sk Toufiqur RAHMAN",
     countryName: "Bangladesh",
@@ -1048,6 +1124,7 @@ export const alumni: Alumnus[] = [
     longitude: -70.6826,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "ALVAREZ REYES Ronald Stephan",
     countryName: "Chile",
@@ -1061,6 +1138,7 @@ export const alumni: Alumnus[] = [
     longitude: -89.1914,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Jorge Alberto Stanley FLORES GONZALEZ",
     countryName: "El Salvador",
@@ -1075,6 +1153,7 @@ export const alumni: Alumnus[] = [
     longitude: -89.2182,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Luis Ernesto MIXCO DURAN",
     countryName: "El Salvador",
@@ -1089,6 +1168,7 @@ export const alumni: Alumnus[] = [
     longitude: -89.1915,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Rene Francisco NUNEZ Orellana",
     countryName: "El Salvador",
@@ -1103,6 +1183,7 @@ export const alumni: Alumnus[] = [
     longitude: -89.1915,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "William Roberto GUZMAN CALDERON",
     countryName: "El Salvador",
@@ -1117,6 +1198,7 @@ export const alumni: Alumnus[] = [
     longitude: 77.209,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Tarun CHAUHAN",
     countryName: "India",
@@ -1131,6 +1213,7 @@ export const alumni: Alumnus[] = [
     longitude: -6.8417,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Nabil MEKAOUI",
     countryName: "Morocco",
@@ -1145,6 +1228,7 @@ export const alumni: Alumnus[] = [
     longitude: -86.2525,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Jorge Vigarny ROJAS GONZALEZ",
     countryName: "Nicaragua",
@@ -1159,6 +1243,7 @@ export const alumni: Alumnus[] = [
     longitude: -77.0508,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Daniel Felipe ESCALANTE MARINO",
     countryName: "Peru",
@@ -1173,6 +1258,7 @@ export const alumni: Alumnus[] = [
     longitude: 120.2314,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Rizalyn Centino ILUMIN",
     countryName: "Philippines",
@@ -1186,6 +1272,7 @@ export const alumni: Alumnus[] = [
     longitude: 31.3172,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "MOHAMED Elsayed",
     countryName: "Egypt",
@@ -1200,6 +1287,7 @@ export const alumni: Alumnus[] = [
     longitude: -86.2528,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Ulbert GRILLO RODRIGUEZ",
     countryName: "Nicaragua",
@@ -1214,6 +1302,7 @@ export const alumni: Alumnus[] = [
     longitude: 121.0506,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Bhenz RODRIGUEZ",
     countryName: "Philippines",
@@ -1229,6 +1318,7 @@ export const alumni: Alumnus[] = [
     longitude: 121.0506,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Edwin Viracucha",
     countryName: "Ecuador",
@@ -1238,6 +1328,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Mohamed Salah Hasaballah Ali MAKLAD",
     countryName: "Egypt",
@@ -1247,6 +1338,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Babita SHARMA",
     countryName: "India",
@@ -1256,6 +1348,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Jonatan ARREOLA-MANZANO",
     countryName: "Mexico",
@@ -1265,6 +1358,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Sergio Alberto GALAVIZ ALONSO",
     countryName: "Mexico",
@@ -1273,6 +1367,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Chintan TIMSINA",
     countryName: "Nepal",
@@ -1282,6 +1377,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Tara POKHAREL",
     countryName: "Nepal",
@@ -1291,6 +1387,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Raouf BENCHARIF",
     countryName: "Algeria",
@@ -1300,6 +1397,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "A.K.M. Sajadur RAHMAN",
     countryName: "Bangladesh",
@@ -1309,6 +1407,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Md. Arifujjaman",
     countryName: "Bangladesh",
@@ -1318,6 +1417,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Mohammad Tariqul ISLAM",
     countryName: "Bangladesh",
@@ -1327,6 +1427,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Alejandra Marcela MEMBREÑO MARTINEZ",
     countryName: "El Salvador",
@@ -1336,6 +1437,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Juan Diego VALENCIA MARMOL",
     countryName: "El Salvador",
@@ -1345,6 +1447,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Yuuki Alejandro HOSAKA VENTURA",
     countryName: "El Salvador",
@@ -1354,6 +1457,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Melanie Bruel PAGCALIWANGAN",
     countryName: "Philippines",
@@ -1363,6 +1467,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Ali Erhan YILMAZ",
     countryName: "Turkey",
@@ -1372,6 +1477,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Leonardo ALVARADO GARCIA",
     countryName: "Ecuador",
@@ -1380,6 +1486,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Abutaleb Ali ABUTALEB AMIN",
     countryName: "Egypt",
@@ -1389,6 +1496,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Amilcar Geovanny CABRERA RAMIREZ",
     countryName: "Nicaragua",
@@ -1398,6 +1506,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Domingo Jose NAMENDI MARTINEZ",
     countryName: "Nicaragua",
@@ -1407,6 +1516,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Nabilt Jill MOGGIANO ABURTO",
     countryName: "Peru",
@@ -1416,6 +1526,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2017,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Amar BENFEDDA",
     countryName: "Algeria",
@@ -1425,6 +1536,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Hamada Saadalla Mahmoud MOHAMED",
     countryName: "Egypt",
@@ -1434,6 +1546,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Sagynbek Orunbaev",
     countryName: "Kyrgyzstan",
@@ -1443,6 +1556,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Kyaw Zayar Naing",
     countryName: "Myanmar",
@@ -1451,6 +1565,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Felix Balthasar Taranu",
     countryName: "Papua New Guinea",
@@ -1460,6 +1575,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Arianne Gail Saluta RIVERA",
     countryName: "Philippines",
@@ -1469,6 +1585,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Abdelkader BENYOUCEF",
     countryName: "Algeria",
@@ -1478,6 +1595,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Boni AMIN",
     countryName: "Bangladesh",
@@ -1487,6 +1605,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Lintu GAZI",
     countryName: "Bangladesh",
@@ -1496,6 +1615,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Md.Hajbul KABIR",
     countryName: "Bangladesh",
@@ -1505,6 +1625,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Mohamed Abdelrasoul Ahmed SHAHEEN",
     countryName: "Egypt",
@@ -1514,6 +1635,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Manuel Arturo SALAZAR NAVIDAD",
     countryName: "El Salvador",
@@ -1523,6 +1645,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Abhishek Gopal",
     countryName: "India",
@@ -1532,6 +1655,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Ashish Gupta",
     countryName: "India",
@@ -1540,6 +1664,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Max Miguel FARIÑAS PEREZ",
     countryName: "Nicaragua",
@@ -1549,6 +1674,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Rommel David Zambrana Areas",
     countryName: "Nicaragua",
@@ -1558,6 +1684,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Amos Fimiamba",
     countryName: "Papua New Guinea",
@@ -1567,6 +1694,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Sharl Narvet Noboa Teran",
     countryName: "Ecuador",
@@ -1576,6 +1704,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Greyving José Argüello Miranda",
     countryName: "Nicaragua",
@@ -1585,6 +1714,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Martha Vanessa Herrera Jimenez",
     countryName: "Nicaragua",
@@ -1594,6 +1724,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Dandy N. Camero",
     countryName: "Philippines",
@@ -1603,6 +1734,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2016,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Moad CHIKH",
     countryName: "Algeria",
@@ -1612,6 +1744,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Baasanbat TSAGAAN",
     countryName: "Mongolia",
@@ -1620,6 +1753,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Baigalimaa GANBAT",
     countryName: "Mongolia",
@@ -1629,6 +1763,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Ganzorig DAVAASUREN",
     countryName: "Mongolia",
@@ -1638,6 +1773,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Kyaw Kyaw Lin",
     countryName: "Myanmar",
@@ -1647,6 +1783,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Nadia Eda MACAVILCA ROJAS",
     countryName: "Peru",
@@ -1656,6 +1793,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Johnlery Pino DEXIMO",
     countryName: "Philippines",
@@ -1664,6 +1802,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Md. Jahidul Islam KHAN",
     countryName: "Bangladesh",
@@ -1673,6 +1812,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Md. Shafiul ISLAM",
     countryName: "Bangladesh",
@@ -1682,6 +1822,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Gino Francisco CABALLERO MORALES",
     countryName: "El Salvador",
@@ -1691,6 +1832,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Nelson Alejandro QUINTANILLA PINTO",
     countryName: "El Salvador",
@@ -1700,6 +1842,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Harish Chandra LAMICHHANE",
     countryName: "Nepal",
@@ -1709,6 +1852,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Nagendra Ray YADAV",
     countryName: "Nepal",
@@ -1717,6 +1861,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Pedro Manuel DULANTO GUTIERREZ",
     countryName: "Nicaragua",
@@ -1726,6 +1871,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Mary Criss SUAREZ ANTUNEZ",
     countryName: "Peru",
@@ -1735,6 +1881,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Kathrine Anne M. CAILING",
     countryName: "Philippines",
@@ -1744,6 +1891,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Suppachai SINTHAWORN",
     countryName: "Thailand",
@@ -1753,6 +1901,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Patricia ARREAGA VARGAS",
     countryName: "Ecuador",
@@ -1762,6 +1911,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Teresa VERA SAN MARTIN",
     countryName: "Ecuador",
@@ -1771,6 +1921,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Fauzi",
     countryName: "Indonesia",
@@ -1780,6 +1931,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Urip Setiyono",
     countryName: "Indonesia",
@@ -1789,6 +1941,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Emilio Adán TALAVERA MARTINEZ",
     countryName: "Nicaragua",
@@ -1797,6 +1950,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Karl Vincent Colobong SORIANO",
     countryName: "Philippines",
@@ -1806,6 +1960,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2015,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "GHERBOUDJ Faouzi",
     countryName: "Algeria",
@@ -1815,6 +1970,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "GHONYAN Ara",
     countryName: "Armenia",
@@ -1824,6 +1980,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "PUTRI Yanuarsih Tunggal",
     countryName: "Indonesia",
@@ -1833,6 +1990,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "TIN MYO AUNG",
     countryName: "Myanmar",
@@ -1842,6 +2000,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "BHATTARAI Mukunda",
     countryName: "Nepal",
@@ -1851,6 +2010,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "ZAMBRANA AREAS Xochilt Esther",
     countryName: "Nicaragua",
@@ -1860,6 +2020,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "REHMAN Shafiq Ur",
     countryName: "Pakistan",
@@ -1869,6 +2030,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "ZAHID Raza",
     countryName: "Pakistan",
@@ -1878,6 +2040,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "VASQUEZ STANESCU Raquel Noemi",
     countryName: "Venezuela (Bolivarian Republic of)",
@@ -1886,6 +2049,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "HUQ Md. Emdadul",
     countryName: "Bangladesh",
@@ -1895,6 +2059,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Shamsul Islam",
     countryName: "Bangladesh",
@@ -1904,6 +2069,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "URRUTIA BARRIOS Pamela",
     countryName: "El Salvador",
@@ -1913,6 +2079,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "MULIA Adhi Yudha",
     countryName: "Indonesia",
@@ -1922,6 +2089,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "FLORES TERREROS Erika Nora",
     countryName: "Peru",
@@ -1931,6 +2099,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "BALAL Onur",
     countryName: "Turkey",
@@ -1940,6 +2109,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "BINBIR Ergun",
     countryName: "Turkey",
@@ -1949,6 +2119,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "BUDIARTA",
     countryName: "Indonesia",
@@ -1958,6 +2129,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "NURPUJIONO",
     countryName: "Indonesia",
@@ -1967,6 +2139,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "MYO NAN DA AUNG",
     countryName: "Myanmar",
@@ -1976,6 +2149,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "MORALES TOVAR Jorge Manuel",
     countryName: "Peru",
@@ -1985,6 +2159,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2014,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "XIE Quancai",
     countryName: "China",
@@ -1996,6 +2171,7 @@ export const alumni: Alumnus[] = [
       "Institute of Engineering Mechanics (IEM), China Earthquake Administration (CEA), Harbin, China.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Lian Chao",
     countryName: "China",
@@ -2006,6 +2182,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Earthquake Administration of Hubei Province, CEA.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Chiko Bhakti Mulia WIRADIKARTA",
     countryName: "Indonesia",
@@ -2017,6 +2194,7 @@ export const alumni: Alumnus[] = [
       "Research Institute for Human Settlements (RIHS), Ministry of Public Works, Indonesia.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Andiyansyah Z. Sabarani",
     countryName: "Indonesia",
@@ -2028,6 +2206,7 @@ export const alumni: Alumnus[] = [
       "Meteorological Climatological and Geophysical Agency (BMKG) of Indonesia.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Sepehr RAJABI BANIANI",
     countryName: "Iran (Islamic Republic of)",
@@ -2038,6 +2217,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Geological Survey of Iran.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Petronila Guadalupe Flores Ayerdis",
     countryName: "Nicaragua",
@@ -2049,6 +2229,7 @@ export const alumni: Alumnus[] = [
       "Institute of Geology and Geophysics, National Autonomous University of Nicaragua (IGG-CIGEO/UNAN-Managua).",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Armando Sifuentes",
     countryName: "Peru",
@@ -2060,6 +2241,7 @@ export const alumni: Alumnus[] = [
       "Japan-Peru Center for Earthquake Engineering Research and Disaster Mitigation (CISMID), Lima, Peru",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Rey M. Lumbang",
     countryName: "Philippines",
@@ -2071,6 +2253,7 @@ export const alumni: Alumnus[] = [
       "Philippine Institute of Volcanology and Seismology (PHIVOLCS), Department of Science and Technology.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "NYAGO Joseph",
     countryName: "Uganda",
@@ -2081,6 +2264,7 @@ export const alumni: Alumnus[] = [
       "Department of Geological Survey and Mines, Seismology Unit (DGSM) Entebbe, Uganda.",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Nazeli GALSTYAN",
     countryName: "Armenia",
@@ -2092,6 +2276,7 @@ export const alumni: Alumnus[] = [
       "Western Survey for Seismic Protection, Ministry of Emergency Situations, Yerevan city, Armenia.",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Rocio Rivera",
     countryName: "Chile",
@@ -2102,6 +2287,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Santolaya Ingenieros Consultores, Chile.",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Yesica Hypatia Perez Alejandro",
     countryName: "Dominican Republic",
@@ -2113,6 +2299,7 @@ export const alumni: Alumnus[] = [
       "Unit of Evaluation of Seismic Vulnerability of Infrastructure, Building and Housing, National Geological Survey (SGN), Dominican Republic",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Way Phyo Linn",
     countryName: "Myanmar",
@@ -2124,6 +2311,7 @@ export const alumni: Alumnus[] = [
       "Public Works, Ministry of Construction, Naypyidaw, Myanmar.",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Bir Bahadur KHADKA",
     countryName: "Nepal",
@@ -2134,6 +2322,7 @@ export const alumni: Alumnus[] = [
       "Disaster Management Section, Urban Development Department, Kathmandu Metropolitan City Office, Nepal.",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Gilbert Kapi",
     countryName: "Papua New Guinea",
@@ -2145,6 +2334,7 @@ export const alumni: Alumnus[] = [
       "Department of Works (Operations Division), Papua New Guinea.",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Pinar INCI KOCAK",
     countryName: "Turkey",
@@ -2156,6 +2346,7 @@ export const alumni: Alumnus[] = [
       "Istanbul Technical University, Structural and Earthquake Engineering Laboratory, Istanbul, Turkey",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Guvanch Annayev",
     countryName: "Turkmenistan",
@@ -2167,6 +2358,7 @@ export const alumni: Alumnus[] = [
       "Principal engineer, The Scientific Research Institute of Seismic Resistance Construction of the Ministry of Construction of Turkmenistan.",
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Mauricio REYES GALLARDO",
     countryName: "Chile",
@@ -2178,6 +2370,7 @@ export const alumni: Alumnus[] = [
       "Civil Engineer, Professor, Ocean Engineering School, University of Valparaíso, Chile.",
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Su Hninn Htwe",
     countryName: "Myanmar",
@@ -2188,6 +2381,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Department of Meteorology and Hydrology (DMH) of Myanmar",
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Martin WAREK",
     countryName: "Papua New Guinea",
@@ -2199,6 +2393,7 @@ export const alumni: Alumnus[] = [
       "Department of Works, Government of Papua New Guinea, Port Moresby, Papua New Guinea.",
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Julius Galdiano",
     countryName: "Philippines",
@@ -2210,6 +2405,7 @@ export const alumni: Alumnus[] = [
       "Philippine Institute of Volcanology and Seismology (PHIVOLCS)- Department of Science and Technology (DOST), Philippines",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Rafig Safarov",
     countryName: "Azerbaijan",
@@ -2221,6 +2417,7 @@ export const alumni: Alumnus[] = [
       "Geology Institute of Azerbaijan National Academy of Sciences, Baku , Azerbaijan.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "LIU Rong",
     countryName: "China",
@@ -2231,6 +2428,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Nanjing Municipal Earthquake Bureau, P. R. China",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Jottin M. leonel Collado",
     countryName: "Dominican Republic",
@@ -2241,6 +2439,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "National Geological Survey (SGN) of Dominican Republic",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Fabricio Moquete Everth",
     countryName: "Dominican Republic",
@@ -2252,6 +2451,7 @@ export const alumni: Alumnus[] = [
       "Seismological Institute of Universidad Autonoma de Santo Domingo.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Biana Rahayu Wulandari",
     countryName: "Indonesia",
@@ -2263,6 +2463,7 @@ export const alumni: Alumnus[] = [
       "Agency for Meteorology, Climatology and Geophysics, Indonesia.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Dashdondog Mungunsuren",
     countryName: "Mongolia",
@@ -2274,6 +2475,7 @@ export const alumni: Alumnus[] = [
       "Research Center of Astronomy and Geophysics of Mongolian Academy of Sciences (RCAG, MAS).",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Shahid Mahmood",
     countryName: "Pakistan",
@@ -2284,6 +2486,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Pakistan Meteorological Department (PMD).",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Zahid Shehzad",
     countryName: "Pakistan",
@@ -2295,6 +2498,7 @@ export const alumni: Alumnus[] = [
       "WAPDA Directorate of Seismology, Tarbela Dam Project, Pakistan",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Ahmed Abdullah NOOR",
     countryName: "Bangladesh",
@@ -2305,6 +2509,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Public Works Department, Bangladesh.",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Yefei REN",
     countryName: "China",
@@ -2316,6 +2521,7 @@ export const alumni: Alumnus[] = [
       "Institute of Engineering Mechanics (IEM), CEA, Harbin, China.",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Johanny M.Hernandez Morals",
     countryName: "Dominican Republic",
@@ -2327,6 +2533,7 @@ export const alumni: Alumnus[] = [
       "National Office of Seismic Evaluation and Vulnerability of Infrastructures and Buildings, ONESVIE, Dominican Republic.",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Jose Roberto GUERRA CARBALLO",
     countryName: "El Salvador",
@@ -2338,6 +2545,7 @@ export const alumni: Alumnus[] = [
       "Urban Planning Office of the San Salvador Metropolitan Area (OPAMSS), El Salvador",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Fritz AUPLAN",
     countryName: "Haiti",
@@ -2347,6 +2555,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Civil Engineer",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Tedi Achmad Bahtiar",
     countryName: "Indonesia",
@@ -2358,6 +2567,7 @@ export const alumni: Alumnus[] = [
       "Research Institute for Human Settlements, Ministry of Public Works, Indonesia",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Goran Jekikj",
     countryName: "North Macedonia",
@@ -2369,6 +2579,7 @@ export const alumni: Alumnus[] = [
       "Research Assistant, Institute of Earthquake Engineering and Engineering Seismology (IZIIS), Ss. Cyril and Methodius University in Skopje, Republic of Macedonia",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "NYI Nyi ZAW",
     countryName: "Myanmar",
@@ -2380,6 +2591,7 @@ export const alumni: Alumnus[] = [
       "Public Works, Ministry of Construction, Nay Pyi Taw, Myanmar",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Roy Ericksen REYNA SALAZAR",
     countryName: "Peru",
@@ -2391,6 +2603,7 @@ export const alumni: Alumnus[] = [
       "Japan-Peru Center for Earthquake Engineering Research and Disaster Mitigation (CISMID), Peru.",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Ruel M.Nazareno",
     countryName: "Philippines",
@@ -2402,6 +2615,7 @@ export const alumni: Alumnus[] = [
       "Department of Public Works and Highways-CARAGA, Philippines",
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Dwi Hartanto",
     countryName: "Indonesia",
@@ -2413,6 +2627,7 @@ export const alumni: Alumnus[] = [
       "Meteorology Climatology and Geophysics Agency (BMKG), Jakarta, Indonesia",
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Tatok Yatimantoro",
     countryName: "Indonesia",
@@ -2424,6 +2639,7 @@ export const alumni: Alumnus[] = [
       "Meteorological Climatological and Geophysical Agency of Indonesia (BMKG)",
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Noor Azam Shaari",
     countryName: "Malaysia",
@@ -2434,6 +2650,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Malaysian Meteorological Department",
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Nur Intan Irzwanee Nurashid",
     countryName: "Malaysia",
@@ -2444,6 +2661,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Malaysian Meteorological Department (MMD).",
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Siti Nurhaida Basri",
     countryName: "Malaysia",
@@ -2454,6 +2672,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Malaysian Meteorological Department (MMD), Malaysia",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Zhang Lifen",
     countryName: "China",
@@ -2464,6 +2683,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Earthquake Administration of Hubei Province, China.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Iman Fatchurochman",
     countryName: "Indonesia",
@@ -2475,6 +2695,7 @@ export const alumni: Alumnus[] = [
       "Indonesian Agency for Meteorology, Climatology and Geophysics (BMKG).",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Karleen Black",
     countryName: "Jamaica",
@@ -2485,6 +2706,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "University of the West Indies, Earthquake Unit, Jamaica.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Atifah Mohd Alwi",
     countryName: "Malaysia",
@@ -2496,6 +2718,7 @@ export const alumni: Alumnus[] = [
       "Malaysian Meteorological Department (MMD), Sarawak Regional Forecast Office, Malaysia",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Siti Norbaizura MAT SAID",
     countryName: "Malaysia",
@@ -2506,6 +2729,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Malaysian Meteorological Department (MMD), Malaysia.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Kyi Kyi Swe",
     countryName: "Myanmar",
@@ -2517,6 +2741,7 @@ export const alumni: Alumnus[] = [
       "The author works for Department of Meteorology and Hydrology, Ministry of Transport, Myanmar.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Nolan C. Evangelista",
     countryName: "Philippines",
@@ -2527,6 +2752,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Philippine Institute of Volcanology and Seismology.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Vilma Castillejos Hernandez",
     countryName: "Philippines",
@@ -2538,6 +2764,7 @@ export const alumni: Alumnus[] = [
       "Philippine Institute of Volcanology and Seismology–Department of Science and Technology, Philippines.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Mehmet Baykal",
     countryName: "Turkey",
@@ -2548,6 +2775,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "∗Disaster and Emergency Management Presidency, Turkey.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Cigdem Tetik",
     countryName: "Turkey",
@@ -2559,6 +2787,7 @@ export const alumni: Alumnus[] = [
       "Republic of Turkey, Prime Ministry Disaster and Emergency Management Presidency, Recovery Department,Turkey.",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Qi Wenhao",
     countryName: "China",
@@ -2570,6 +2799,7 @@ export const alumni: Alumnus[] = [
       "Institute of Engineering Mechanics (IEM), China Earthquake Administration (CEA), Harbin City, China.",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Sergio Sunley",
     countryName: "El Salvador",
@@ -2580,6 +2810,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Universidad Centroamericana José Simeón Cañas.",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Muhammad Rusli",
     countryName: "Indonesia",
@@ -2591,6 +2822,7 @@ export const alumni: Alumnus[] = [
       "Researcher, Research Institute for Human Settlements (Puskim), Ministry of Public Works (PU), Indonesia.",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Delvin Martinez",
     countryName: "Nicaragua",
@@ -2601,6 +2833,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Geoscientific Research Center, Managua City, Nicaragua",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Bilha Herrera",
     countryName: "Peru",
@@ -2611,6 +2844,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Geophysical Institute of Peru (IGP), Lima city, Peru",
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Gian Ginanjar",
     countryName: "Indonesia",
@@ -2622,6 +2856,7 @@ export const alumni: Alumnus[] = [
       "Indonesian Agency for Meteorology, Climatology and Geophysics -BMKG (Badan Meteorologi, Klimatologi dan Geofisika) Indonesia",
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Setyoajie Prayoedhie",
     countryName: "Indonesia",
@@ -2633,6 +2868,7 @@ export const alumni: Alumnus[] = [
       "Indonesian Agency for Meteorology, Climatology and Geophysics (BMKG), Jakarta, Indonesia.",
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Fatimah Zaharah Saleh",
     countryName: "Malaysia",
@@ -2643,6 +2879,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Malaysian Meteorological Department Malaysia.",
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Mazni AZIS",
     countryName: "Malaysia",
@@ -2652,6 +2889,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Malaysian Meteorological Department (MMD).",
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Sheila Yauri",
     countryName: "Peru",
@@ -2662,6 +2900,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Geophysical Institute of Peru, Lima – Peru.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Li Xiao Fan",
     countryName: "China",
@@ -2673,6 +2912,7 @@ export const alumni: Alumnus[] = [
       "Assistant researcher, China Earthquake Network Center, Beijing, China.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "TORRES CORREDOR Roberto Armando",
     countryName: "Colombia",
@@ -2684,6 +2924,7 @@ export const alumni: Alumnus[] = [
       "Colombian Institute of Geology and Mining (INGEOMINAS), Pasto, Colombia.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "ELSIE Benedict Jaimin",
     countryName: "Malaysia",
@@ -2695,6 +2936,7 @@ export const alumni: Alumnus[] = [
       "Malaysian Meteorological Department, Sabah Regional Forecast Office, Malaysia.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "ZAHRATUL Ain Din",
     countryName: "Malaysia",
@@ -2705,6 +2947,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Malaysian Meteorological Department (MMD), Malaysia.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Oo Than",
     countryName: "Myanmar",
@@ -2716,6 +2959,7 @@ export const alumni: Alumnus[] = [
       "Department of Meteorology and Hydrology (DMH) of Myanmar.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "SHRESTHA Prithvi Lal",
     countryName: "Nepal",
@@ -2727,6 +2971,7 @@ export const alumni: Alumnus[] = [
       "National Seismological Centre, Department of Mines & Geology, Kathmandu, Nepal.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Khan Agha BABAR Ali",
     countryName: "Pakistan",
@@ -2737,6 +2982,7 @@ export const alumni: Alumnus[] = [
       "Pakistan Meteorological Department (PMD), Islamabad, Pakistan.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "QUISPE GAMERO Mileyvi Selene",
     countryName: "Peru",
@@ -2748,6 +2994,7 @@ export const alumni: Alumnus[] = [
       "Japan Peru Center for Earthquake Engineering and Disaster Mitigation (CISMID), Lima city, Peru",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "SALCEDO Joan Cruz",
     countryName: "Philippines",
@@ -2759,6 +3006,7 @@ export const alumni: Alumnus[] = [
       "Philippine Institute of Volcanology and Seismology – Department of Science and Technology (PHIVOLCS-DOST), Philippines.",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Taleb Rafik",
     countryName: "Algeria",
@@ -2770,6 +3018,7 @@ export const alumni: Alumnus[] = [
       "National Center of Applied Research on Earthquake Engineering (CGS), Algeria.",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "TAO Zheng Ru",
     countryName: "China",
@@ -2781,6 +3030,7 @@ export const alumni: Alumnus[] = [
       "Institute of Engineering Mechanics, China Earthquake Administration.",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Alvarado Funes Rolando Jose",
     countryName: "El Salvador",
@@ -2791,6 +3041,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "University of El Salvador (UES).",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Funes Hernandez Carlos Antonio",
     countryName: "El Salvador",
@@ -2801,6 +3052,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Seprobia Soil Testing Laboratory, El Salvador.",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Ramos Huezo Jose Adolfo",
     countryName: "El Salvador",
@@ -2811,6 +3063,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Simeon Canas University, El Salvador",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Kusworo Darpito",
     countryName: "Indonesia",
@@ -2821,6 +3074,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Ministry of Public Work, the Republic of Indonesia.",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Sevilla Cano Samuel Enrique",
     countryName: "Nicaragua",
@@ -2832,6 +3086,7 @@ export const alumni: Alumnus[] = [
       "Centro de Investigaciones Goescientificas CIGEO/UNAN-Managua, Nicaragua.",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "BEDRIÑANA Luis Alberto",
     countryName: "Peru",
@@ -2843,6 +3098,7 @@ export const alumni: Alumnus[] = [
       "Center for Earthquake Engineering Research and Disaster Mitigation (CISMID), Peru.",
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Rawaikala Unaisi Rabetabeta",
     countryName: "Fiji",
@@ -2853,6 +3109,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Mineral Resources Department, Suva, Fiji.",
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Weniza",
     countryName: "Indonesia",
@@ -2864,6 +3121,7 @@ export const alumni: Alumnus[] = [
       "Meteorological Climatological and Geophysical Agency (BMKG), Jakarta, Indonesia.",
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "WIJAYANTO",
     countryName: "Indonesia",
@@ -2875,6 +3133,7 @@ export const alumni: Alumnus[] = [
       "Meteorological Climatological and Geophysical Agency (BMKG), Indonesia.",
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Mohd Ridzuan Bin Adam",
     countryName: "Malaysia",
@@ -2885,6 +3144,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Malaysian Meteorological Department (MMD).",
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Adriano Ortega Bruno",
     countryName: "Peru",
@@ -2896,6 +3156,7 @@ export const alumni: Alumnus[] = [
       "Japan Peru Center for Earthquake Engineering and Disaster Mitigation (CISMID), Peru.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Wang Dun",
     countryName: "China",
@@ -2907,6 +3168,7 @@ export const alumni: Alumnus[] = [
       "Institute of Seismology, China Earthquake Administration, China.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "LI Jinggang",
     countryName: "China",
@@ -2918,6 +3180,7 @@ export const alumni: Alumnus[] = [
       "Institute of Seismology, China Earthquake Administration, China.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Nelson Eduardo Ayala Leiva",
     countryName: "El Salvador",
@@ -2928,6 +3191,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Universidad Centroamericana José Simeón Cañas.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Aderito Celso Felix Aramuge",
     countryName: "Mozambique",
@@ -2938,6 +3202,7 @@ export const alumni: Alumnus[] = [
       "National Institute of Meteorology (INAM), Republic of Mozambique.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "PHYO Maung Maung",
     countryName: "Myanmar",
@@ -2948,6 +3213,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Department of Meteorology and Hydrology (DMH), Myanmar.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Ehsanullah",
     countryName: "Pakistan",
@@ -2957,6 +3223,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Water and Power Development Authority (WAPDA), Pakistan",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Riaz Ahmed Soomro",
     countryName: "Pakistan",
@@ -2967,6 +3234,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Micro Seismic Studies Programme, Islamabad, Pakistan.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Poolcharuansin Kannika",
     countryName: "Thailand",
@@ -2978,6 +3246,7 @@ export const alumni: Alumnus[] = [
       "Meteorologist, Seismological Bureau, Thai Meteorological Department, Thailand.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Ozmen Ozgur Tuna",
     countryName: "Turkey",
@@ -2988,6 +3257,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "General Directorate of Disaster Affairs, Ankara, Turkey.",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "REN Jun",
     countryName: "China",
@@ -2998,6 +3268,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Earthquake Administration of Shaanxi Province, China.",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Hu Shaoqing",
     countryName: "China",
@@ -3009,6 +3280,7 @@ export const alumni: Alumnus[] = [
       "Institute of Engineering Mechanics (IEM), China Earthquake Administration (CEA), China",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "SUN Junjie",
     countryName: "China",
@@ -3020,6 +3292,7 @@ export const alumni: Alumnus[] = [
       "Assistant Research Fellow, Lanzhou Institute of Seismology, China Earthquake Administration, China.",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Wang Yanwei",
     countryName: "China",
@@ -3031,6 +3304,7 @@ export const alumni: Alumnus[] = [
       "Institute of Engineering Mechanics (IEM), China Earthquake Administration (CEA).",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "CAI Xiaoguang",
     countryName: "China",
@@ -3042,6 +3316,7 @@ export const alumni: Alumnus[] = [
       "Lecturer, Institute of Disaster Prevention Science and Technology, Beijing, China",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Monica Patricia Gutierrez Martinez",
     countryName: "El Salvador",
@@ -3053,6 +3328,7 @@ export const alumni: Alumnus[] = [
       "Universidad Centroamericana José Simeón Cañas of El Salvador",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "S.Murugan",
     countryName: "India",
@@ -3064,6 +3340,7 @@ export const alumni: Alumnus[] = [
       "Thanthai Periyar Government Institute of Technology, Vellore, Tamil Nadu, India.",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Lourdes Ana Maria Cardenas Paredes",
     countryName: "Peru",
@@ -3075,6 +3352,7 @@ export const alumni: Alumnus[] = [
       "Center for Earthquake Engineering Research and Disaster Mitigation (CISMID) of Peru.",
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Jenny Taira Higa",
     countryName: "Peru",
@@ -3086,6 +3364,7 @@ export const alumni: Alumnus[] = [
       "Japan - Peru Center for Earthquake Engineering Research and Disaster Mitigation (CISMID), Peru.",
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Tiar Prasetya",
     countryName: "Indonesia",
@@ -3097,6 +3376,7 @@ export const alumni: Alumnus[] = [
       "Geophysical Station, Regional Seismic Center VII – Yogyakarta. Meteorological, Climatological and Geophysical Agency (BMKG) of Indonesia",
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Titi HANDAYANI",
     countryName: "Indonesia",
@@ -3108,6 +3388,7 @@ export const alumni: Alumnus[] = [
       "Agency for Meteorology Climatology and Geophysics (BMKG), Indonesia.",
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Tri Handayani",
     countryName: "Indonesia",
@@ -3118,6 +3399,7 @@ export const alumni: Alumnus[] = [
       "Agency for Meteorology Climatology and Geophysics (BMKG), Indonesia.",
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Zamuna ZAINAL",
     countryName: "Malaysia",
@@ -3128,6 +3410,7 @@ export const alumni: Alumnus[] = [
     affiliationName: "Malaysian Meteorological Department, Malaysia.",
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Sayeed Ahmed Choudhury",
     countryName: "Bangladesh",
@@ -3137,6 +3420,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Md. Rubyet Kabir",
     countryName: "Bangladesh",
@@ -3146,6 +3430,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Seru Sefanaia",
     countryName: "Fiji",
@@ -3155,6 +3440,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Paulino C. FEITIO",
     countryName: "Mozambique",
@@ -3164,6 +3450,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Pa Pa Tun",
     countryName: "Myanmar",
@@ -3173,6 +3460,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Dayra Yessenia BLANDON SANDINO",
     countryName: "Nicaragua",
@@ -3182,6 +3470,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Nasir Mahmood",
     countryName: "Pakistan",
@@ -3191,6 +3480,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "S.W.M. SENEVIRATNE",
     countryName: "Sri Lanka",
@@ -3200,6 +3490,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Sule GURBOGA",
     countryName: "Turkey",
@@ -3209,6 +3500,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Timur TEZEL",
     countryName: "Turkey",
@@ -3217,6 +3509,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Gong Maosheng",
     countryName: "China",
@@ -3226,6 +3519,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Javier Yukio Yamamoto Munoz",
     countryName: "Dominican Republic",
@@ -3234,6 +3528,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Nicolas GUEVARA",
     countryName: "El Salvador",
@@ -3243,6 +3538,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Hendarto",
     countryName: "Indonesia",
@@ -3252,6 +3548,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Ferri Eka Putra",
     countryName: "Indonesia",
@@ -3261,6 +3558,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Prakirna TULADHAR",
     countryName: "Nepal",
@@ -3270,6 +3568,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Ghazala Naeem",
     countryName: "Pakistan",
@@ -3279,6 +3578,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Miguel Augusto DIAZ FIGUEROA",
     countryName: "Peru",
@@ -3288,6 +3588,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Chandima Kularatne",
     countryName: "Sri Lanka",
@@ -3297,6 +3598,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Sithipat Palanandana",
     countryName: "Thailand",
@@ -3306,6 +3608,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "A.K.M.Ruhul KUDDUS",
     countryName: "Bangladesh",
@@ -3315,6 +3618,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Ariska Rudyanto",
     countryName: "Indonesia",
@@ -3324,6 +3628,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Athanasius Cipta",
     countryName: "Indonesia",
@@ -3333,6 +3638,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "CHAI Mui Fatt",
     countryName: "Malaysia",
@@ -3342,6 +3648,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2008,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Lasarusa Piutau Vuetibau",
     countryName: "Fiji",
@@ -3351,6 +3658,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Iman Suardi",
     countryName: "Indonesia",
@@ -3360,6 +3668,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Tun Lin Kyaw",
     countryName: "Myanmar",
@@ -3369,6 +3678,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Edwin Nadir Castrillo Osorio",
     countryName: "Nicaragua",
@@ -3378,6 +3688,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Afsar Khan",
     countryName: "Pakistan",
@@ -3387,6 +3698,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Majed Matar AL-Mutairi",
     countryName: "Saudi Arabia",
@@ -3396,6 +3708,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Sanjeevani Nilmini Bandara THALDENA",
     countryName: "Sri Lanka",
@@ -3405,6 +3718,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Rami Ibrahim",
     countryName: "Syrian Arab Republic",
@@ -3414,6 +3728,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Taciser CETINOL",
     countryName: "Turkey",
@@ -3422,6 +3737,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Esline Garaebiti",
     countryName: "Vanuatu",
@@ -3431,6 +3747,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "YU Shizhou",
     countryName: "China",
@@ -3440,6 +3757,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Jorge GRANADOS SOTO",
     countryName: "Costa Rica",
@@ -3449,6 +3767,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Emilio Martin Ventura Diaz",
     countryName: "El Salvador",
@@ -3458,6 +3777,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Kosh Nath Adhikari",
     countryName: "Nepal",
@@ -3467,6 +3787,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Sunil Kumar THAKUR",
     countryName: "Nepal",
@@ -3476,6 +3797,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Khan Shahzada",
     countryName: "Pakistan",
@@ -3484,6 +3806,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Ovidiu BOGDAN",
     countryName: "Romania",
@@ -3493,6 +3816,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "AL-HASAWI Abdulrahman",
     countryName: "Saudi Arabia",
@@ -3502,6 +3826,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Hussam Eldein Zaineh",
     countryName: "Syrian Arab Republic",
@@ -3511,6 +3836,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Ahmet Utku YAZGAN",
     countryName: "Turkey",
@@ -3520,6 +3846,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Netai Chandra Dey Sarker",
     countryName: "Bangladesh",
@@ -3529,6 +3856,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Sugeng Pribadi",
     countryName: "Indonesia",
@@ -3538,6 +3866,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Norhadizah Bte MOHD KHALID",
     countryName: "Malaysia",
@@ -3546,6 +3875,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "Zaty Aktar binti Mokhtar",
     countryName: "Malaysia",
@@ -3555,6 +3885,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
+    group: "IISEE",
     course: "Tsunami Disaster Mitigation",
     name: "PRAKHAMMINTARA Phuwieng",
     countryName: "Thailand",
@@ -3564,6 +3895,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2007,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Nato JORJIASHVILI",
     countryName: "Georgia",
@@ -3573,6 +3905,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "SALGURRO GIRON Raul Armando",
     countryName: "Guatemala",
@@ -3581,6 +3914,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Himangshu Sekhar MANDAL",
     countryName: "India",
@@ -3590,6 +3924,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Rahmat TRIYONO",
     countryName: "Indonesia",
@@ -3599,6 +3934,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Adiya MUNKHSAIKHAN",
     countryName: "Mongolia",
@@ -3608,6 +3944,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Janak Bahadur CHAND",
     countryName: "Nepal",
@@ -3617,6 +3954,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Deniz CAKA",
     countryName: "Turkey",
@@ -3625,6 +3963,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "Davran Matkarimovich OTAJANOV",
     countryName: "Uzbekistan",
@@ -3633,6 +3972,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
+    group: "IISEE",
     course: "Seismology",
     name: "SHUMBA Blessing Tawanda",
     countryName: "Zimbabwe",
@@ -3642,6 +3982,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Fraidoon Alkozai",
     countryName: "Afghanistan",
@@ -3651,6 +3992,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Neritan Jorgo SHKODRANI",
     countryName: "Albania",
@@ -3660,6 +4002,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Mohamed. OUKSILI",
     countryName: "Algeria",
@@ -3669,6 +4012,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Qiang MA",
     countryName: "China",
@@ -3678,6 +4022,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Jorge MUNOZ BARRANTES",
     countryName: "Costa Rica",
@@ -3687,6 +4032,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Roberto Mauricio MERLOS LAINEZ",
     countryName: "El Salvador",
@@ -3696,6 +4042,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Jamts ALTANTSETSEG",
     countryName: "Mongolia",
@@ -3704,6 +4051,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Leslie Giuliana CHANG CHUMPEN",
     countryName: "Peru",
@@ -3713,6 +4061,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Hector Hugo SILVA SANCHEZ",
     countryName: "Peru",
@@ -3722,6 +4071,7 @@ export const alumni: Alumnus[] = [
     completionYear: 2006,
   },
   {
+    group: "IISEE",
     course: "Earthquake Engineering",
     name: "Ariel Arcebuche ONG",
     countryName: "Philippines",
