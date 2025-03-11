@@ -1,5 +1,5 @@
 type Alumnus = {
-  group: string
+  group: "IISEE" | "ICHARM"
   course: string
   name: string
   countryName: CountryName

@@ -4,8 +4,9 @@ import {
   alumnusFilterAtom,
   selectedAlumniAtom,
   selectedAlumnusAtom,
+  settingsAtom,
 } from "lib/store"
-import { useAtom, useSetAtom } from "jotai"
+import { useAtom, useAtomValue, useSetAtom } from "jotai"
 import { alumni as allAlumi } from "lib/constant/alumni"
 import { Dialog } from "components/common/dialog"
 import { allCountries } from "lib/constant/country"
@@ -21,9 +22,14 @@ const AlumnusListComponent: FC<ComponentProps<"div">> = ({
   const setSelectedAlumnus = useSetAtom(selectedAlumnusAtom)
   const [alumnusFilter, setAlumnusFilter] = useAtom(alumnusFilterAtom)
   const [isOpenContryDialog, setIsOpenCountryDialog] = useState<boolean>(false)
+  const settings = useAtomValue(settingsAtom)
   useEffect(() => {
     setAlumni(
       allAlumi
+        .filter(
+          (alumnus) =>
+            !settings.included || settings.included.includes(alumnus.group)
+        )
         .filter(
           (alumnus) =>
             !alumnusFilter.hasPosition ||
@@ -47,7 +53,7 @@ const AlumnusListComponent: FC<ComponentProps<"div">> = ({
               .includes(alumnusFilter.name.toLocaleLowerCase())
         )
     )
-  }, [alumnusFilter])
+  }, [settings, alumnusFilter])
   return (
     <div
       {...props}
