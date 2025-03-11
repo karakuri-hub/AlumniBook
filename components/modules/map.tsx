@@ -19,6 +19,7 @@ import {
   alumnusFilterAtom,
   selectedAlumniAtom,
   selectedAlumnusAtom,
+  settingsAtom,
 } from "lib/store"
 import L from "leaflet"
 import { Tag } from "components/common/tag"
@@ -112,6 +113,7 @@ const FitBounds = ({ alumni }: { alumni: Alumnus[] }) => {
 export const Map: FC<ComponentProps<"div">> = ({ style, ...props }) => {
   const alumni = useAtomValue(alumniAtom)
   const alumniFilter = useAtomValue(alumnusFilterAtom)
+  const settings = useAtomValue(settingsAtom)
   return (
     <>
       <div style={{ ...style }} {...props}>
@@ -133,19 +135,21 @@ export const Map: FC<ComponentProps<"div">> = ({ style, ...props }) => {
           />
           <ZoomComponent alumni={alumni} />
           <FitBounds alumni={alumni} />
-          {alumniFilter.countryNames.length > 0 && (
-            <GeoJSON
-              data={geoJsonData}
-              style={(feature) => ({
-                fillColor:
-                  alumniFilter.countryNames.includes(feature.properties.name) &&
-                  "#f00",
-                fillOpacity: 0.3,
-                weight: 1,
-                color: "white",
-              })}
-            />
-          )}
+          {settings.isHighlightedCountried &&
+            alumniFilter.countryNames.length > 0 && (
+              <GeoJSON
+                data={geoJsonData}
+                style={(feature) => ({
+                  fillColor:
+                    alumniFilter.countryNames.includes(
+                      feature.properties.name
+                    ) && "#f00",
+                  fillOpacity: 0.3,
+                  weight: 1,
+                  color: "white",
+                })}
+              />
+            )}
         </MapContainer>
       </div>
     </>
